@@ -1,4 +1,4 @@
-SOUL OF ATHENS 2020
+<b>Soul of Athens 2020 <b>
 
 Megan Bomar - Project Manager
 
@@ -11,4 +11,3 @@ Taylor Johnston - Lead Developer
 Meagan Deanne - Lead Photographer
 
 Shelby Miller - Photographer
-
