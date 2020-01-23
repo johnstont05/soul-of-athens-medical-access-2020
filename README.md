@@ -1,5 +1,7 @@
 <b>Soul of Athens 2020 <b>
 
+Capstone
+
 Megan Bomar - Project Manager
 
 Chris Turner - Graphics/Illustrations
