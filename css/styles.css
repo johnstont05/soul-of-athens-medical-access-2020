@@ -1,17 +1,16 @@
 /* GLOBAL STYLES */
-.body {
-
-}
-
-.dark-footer{
-  background-color: #a2a2a2;
-  font-family: 'Muli', sans-serif;
-  padding-top: 15px;
-}
-
 .reveal {
   font-size: 100px;
-  background-color: teal;
+  background-color: gray;
   width: 100%;
   color: white;
+}
+
+/* FONT STYLES */
+.reveal h1 {
+  font-size: 72px;
+}
+
+.reveal h2 {
+  font-size: 24px;
 }
