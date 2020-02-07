@@ -3,10 +3,11 @@
 
 }
 
-
-
-
-
+.dark-footer{
+  background-color: #a2a2a2;
+  font-family: 'Muli', sans-serif;
+  padding-top: 15px;
+}
 
 .reveal {
   font-size: 100px;
