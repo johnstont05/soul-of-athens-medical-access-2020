@@ -1,0 +1,42 @@
+/* GLOBAL STYLES */
+a {
+
+}
+.display-3 {
+  text-align: center
+}
+.display-4 {
+  text-align: center;
+}
+
+
+/* NAVIGATION BAR */
+.navbar {
+  background-color: white;
+}
+
+
+/* JUMBOTRON */
+.jumbotron {
+height: 500px;
+}
+
+.intro {
+  width: 100%;
+  text-align: center;
+}
+
+/* OTHER */
+/* @keyframes slidemove {
+  from {left: -100px;}
+  to {left: 800px;}
+}
+
+.slide-in {
+  width: 50%;
+  color: orange;
+  position: relative;
+  animation-name: slidemove;
+  animation-duration: 3s;
+  animation-iteration-count: 5;
+} */
