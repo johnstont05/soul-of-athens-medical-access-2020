@@ -1,16 +1,42 @@
 /* GLOBAL STYLES */
-.reveal {
-  font-size: 100px;
-  background-color: gray;
+a {
+
+}
+.display-3 {
+  text-align: center
+}
+.display-4 {
+  text-align: center;
+}
+
+
+/* NAVIGATION BAR */
+.navbar {
+  background-color: white;
+}
+
+
+/* JUMBOTRON */
+.jumbotron {
+height: 500px;
+}
+
+.intro {
   width: 100%;
-  color: white;
+  text-align: center;
 }
 
-/* FONT STYLES */
-.reveal h1 {
-  font-size: 72px;
+/* OTHER */
+/* @keyframes slidemove {
+  from {left: -100px;}
+  to {left: 800px;}
 }
 
-.reveal h2 {
-  font-size: 24px;
-}
+.slide-in {
+  width: 50%;
+  color: orange;
+  position: relative;
+  animation-name: slidemove;
+  animation-duration: 3s;
+  animation-iteration-count: 5;
+} */
