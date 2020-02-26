@@ -12,31 +12,18 @@ a {
 }
 
 /* NAVIGATION BAR */
-.navbar {
-  background-color: white;
+.fa-1x {
+font-size: 1.5rem;
+}
+.navbar-toggler.toggler-example {
+cursor: pointer;
 }
 
 .container {
   padding-bottom: 50px;
 }
 
-/* JUMBOTRON */
-.jumbotron {
-  height: 100%;
-}
 
-.intro {
-  width: 100%;
-  text-align: center;
-}
-
-.fa-angle-double-down {
-  color: black;
-  text-align: center;
-  width: 100%;
-  font-size: 60px;
-  padding-top: 20%;
-}
 
 /* MORE STORIES SECTION */
 .round-button {
@@ -72,6 +59,7 @@ a {
   font-weight: bold;
   text-decoration: none;
 }
+
 
 /* FOOTER */
 .page-footer {
