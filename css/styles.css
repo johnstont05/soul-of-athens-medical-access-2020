@@ -3,12 +3,31 @@ a {
   color: inherit;
 }
 
+p {
+  font-size: 18px;
+}
+
 .display-3 {
-  text-align: center
+  text-align: center;
+  font-size: 30px;
+  color: black;
+  font-weight: 400;
 }
 
 .display-4 {
   text-align: center;
+  font-size: 120px;
+  color: white;
+  font-weight: 800;
+  text-shadow: 2px 2px 2px black;
+
+}
+.container {
+  padding-top: 100px;
+}
+
+#img2 {
+  padding-top:100px;
 }
 
 /* NAVIGATION BAR */
@@ -19,51 +38,243 @@ font-size: 1.5rem;
 cursor: pointer;
 }
 
-.container {
-  padding-bottom: 50px;
+/* JUMBOTRON */
+.jumbotron {
+  border-radius: 0rem;
+  background-image: url("../images/intro-img.jpg");
+ background-size: cover;
 }
-
-
 
 /* MORE STORIES SECTION */
-.round-button {
-  width: 25%;
-  padding-left: 10px;
+.container-buttons {
+  padding: 60px;
+  width: 60%;
   margin: auto;
+  padding-top: 1px;
+}
+.ch-grid {
+  margin: 40px 0 0 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+  text-align: center;
+  width: 100%;
 }
 
-.round-button-circle {
+.ch-grid:after,
+.ch-item:before {
+  content: '';
+  display: table;
+}
+
+.ch-grid:after {
+  clear: both;
+}
+
+.ch-grid li {
+  width: 220px;
+  height: 220px;
+  display: inline-block;
+  margin: 20px;
+}
+
+.ch-item {
   width: 100%;
-  height: 0;
-  padding-bottom: 100%;
+  height: 100%;
   border-radius: 50%;
   overflow: hidden;
-  background: silver;
+  position: relative;
+  cursor: default;
+  box-shadow: inset 0 0 0 16px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.1);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
-.round-button-circle:hover {
-  background: darkgray;
+.ch-img-1 {
+  background-image: url("../images/dave-2.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+
 }
 
-.round-button a {
+.ch-img-2 {
+  background-image: url("https://glowvarietyshow.com/wp-content/uploads/2017/03/placeholder-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.ch-img-3 {
+  background-image: url("https://glowvarietyshow.com/wp-content/uploads/2017/03/placeholder-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.ch-info {
+  position: absolute;
+  background: gray;
+  width: inherit;
+  height: inherit;
+  border-radius: 50%;
+  overflow: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+
+.ch-info h3 {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin: 0 30px;
+  padding: 80px 0 0 0;
+  height: 100px;
+  text-shadow: 0 0 1px #fff, 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.ch-info p {
+  color: #fff;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 8px 5px;
+  font-style: italic;
+  margin: -50px 30px;
+  font-size: 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  opacity: 0;
+  -webkit-transition: all 1s ease-in-out 0.4s;
+  transition: all 1s ease-in-out 0.4s;
+}
+.ch-info p img {
+  padding: 0 10px;
+}
+
+.ch-info p a {
   display: block;
-  float: left;
-  width: 100%;
-  padding-top: 50%;
-  padding-bottom: 50%;
-  line-height: 1em;
-  margin-top: -0.5em;
-  text-align: center;
-  color: white;
-  font-size: 1.2em;
-  font-weight: bold;
-  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 9px;
+  letter-spacing: 1px;
+  padding-top: 4px;
+}
+
+.ch-info p a:hover {
+  color: rgba(255, 242, 34, 0.8);
+}
+
+.ch-item:hover {
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.ch-item:hover .ch-info {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  opacity: 1;
+}
+
+.ch-item:hover .ch-info p {
+  opacity: 1;
 }
 
 
 /* FOOTER */
-.page-footer {
+.footer-dark {
+  padding:50px 0;
+  color: black;
   background-color: gray;
 }
 
-/* OTHER */
+.footer-dark h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-dark ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-dark ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity:0.8;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom:36px;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item.text {
+    margin-bottom:0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity:0.6;
+  margin-bottom:0;
+}
+
+.footer-dark .item.social {
+  text-align:center;
+}
+
+@media (max-width:991px) {
+  .footer-dark .item.social {
+    text-align:center;
+    margin-top:20px;
+  }
+}
+
+.footer-dark .item.social > a {
+  font-size:20px;
+  width:36px;
+  height:36px;
+  line-height:36px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+  margin:0 8px;
+  color:#fff;
+  opacity:0.75;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity:0.9;
+}
+
+.footer-dark .copyright {
+  text-align:center;
+  padding-top: 40px;
+  opacity:0.3;
+  font-size:13px;
+  margin-bottom:0;
+}

@@ -224,7 +224,7 @@ body {
   display: none;
   position: absolute;
   top: auto;
-  bottom: 50px;
+  bottom: 100px;
   right: 12px;
   left: auto;
   z-index: 11;
@@ -417,9 +417,9 @@ body {
 .reveal .progress {
   position: absolute;
   display: none;
-  height: 3px;
+  height: 10px;
   width: 100%;
-  bottom: 50px;
+  bottom: 100px;
   left: 0;
   z-index: 10;
   background-color: rgba(0, 0, 0, 0.2);
@@ -429,7 +429,7 @@ body {
   content: '';
   display: block;
   position: absolute;
-  height: 10px;
+  height: 20px;
   width: 100%;
   top: -10px; }
 

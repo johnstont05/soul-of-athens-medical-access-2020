@@ -88,6 +88,7 @@ body {
  *********************************************/
 .reveal p {
   margin: 20px 0;
+  padding-bottom: 20px;
   line-height: 1.3;
 }
 
