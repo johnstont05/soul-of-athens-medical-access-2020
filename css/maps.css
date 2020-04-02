@@ -257,11 +257,10 @@ cursor: pointer;
 }
 
 #marker2 {
-background-image: url('https://raw.githubusercontent.com/johnstont05/soul-of-athens-medical-access-2020/master/images/phone-icon.png');
+background-image: url('https://raw.githubusercontent.com/johnstont05/soul-of-athens-medical-access-2020/master/images/truck-icon.png');
 background-size: cover;
-width: 25px;
-height: 25px;
-border-radius: 50%;
+width: 60px;
+height: 35px;
 cursor: pointer;
 }
 
