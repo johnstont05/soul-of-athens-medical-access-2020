@@ -238,6 +238,7 @@ p {
   font-family: 'Source Sans Pro';
   font-size: 18px;
   padding: 20px 10px 15px !important;
+  text-align: center;
 }
 
 .source {
