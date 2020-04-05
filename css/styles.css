@@ -1,4 +1,8 @@
 /* GLOBAL STYLES */
+body {
+  height: 1000px;
+}
+
 a {
   color: inherit;
 }

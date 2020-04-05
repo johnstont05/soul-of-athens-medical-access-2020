@@ -1,0 +1,54 @@
+/* GLOBAL STYLES */
+body {
+  height: 2000px;
+}
+
+a {
+  color: inherit;
+}
+
+p {
+  font-size: 18px;
+}
+
+.container {
+  padding-top: 100px;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+  border-radius: 0rem;
+  background-color: rgba(49, 103, 140, 0.6);
+  height: 700px;
+  background-size: cover;
+}
+
+.web-hed {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 120px;
+  line-height: 151px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.web-sum {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 53px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.intro {}
+
+/* MEDIA QUERIES */
+@media (max-width:767px) {
+  .web-hed {
+    font-size: 70px;
+    line-height: 60px;
+  }
+}
