@@ -138,10 +138,10 @@ var geojson = {
         source: 'HCOM',
         type: 'circle',
         paint: {
-            'circle-radius': 10,
-            'circle-color': 'black',
+            'circle-radius': 5,
+            'circle-color': 'yellow',
             'circle-opacity': 0.85,
-            'circle-stroke-color': '#000',
+            'circle-stroke-color': '#fff',
             'circle-stroke-width': 1
         }
     });

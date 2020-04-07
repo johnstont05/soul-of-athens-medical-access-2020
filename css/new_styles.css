@@ -1,8 +1,9 @@
 /*-------- GLOBAL STYLES --------*/
 body {
-  height: 2000px;
   background-color: #213140;
 }
+
+/* TEXT */
 
 a {
   color: inherit;
@@ -13,9 +14,26 @@ p {
   color: #ffffff;
 }
 
+h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 100px;
+  color: #FFFFB6;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* OTHER */
+
+hr {
+  border: 1px solid #ffffff;
+  width: 50%;
+  margin: 0 auto;
+}
+
 .container {
   padding-top: 100px;
 }
+
 
 /*-------- JUMBOTRON --------*/
 .jumbotron {
@@ -46,12 +64,14 @@ p {
 }
 
 /*-------- CONTENT --------*/
-.intro {
+.intro-content {
   text-align: center;
   font-family: 'Lora';
-  margin: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 130px;
+  padding-top: 130px;
   font-size: 22px;
-  height: 500px;
 }
 
 /* 911 CALL */
@@ -59,8 +79,146 @@ p {
   background-image: url("../images/911-bg.png");
   background-size: cover;
   background-color: #ffffff;
-  height:  600px;
+  height:  700px;
 }
+
+.ct-btn-scroll {
+  position: absolute;
+  left: 50%;
+  top: 90%;
+}
+
+/* EMERGENCY MEDICAL SERVICES */
+
+.emergency-services-content {
+  height: 200px;
+}
+
+.emergency-services-text {
+  text-align: center;
+  font-family: 'Lora';
+  padding-left: 50px;
+  padding-right: 100px;
+  padding-bottom: 130px;
+  padding-top: 130px;
+  font-size: 22px;
+  position: absolute;
+  margin: auto 0;
+}
+
+/* PULL QUOTE */
+blockquote {
+    padding: 0;
+    margin-top: 450px;
+    margin-bottom: 10px;
+    margin-left: 220px;
+    margin-right: 220px;
+}
+
+.pullquote {
+  position: absolute;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 1.5em;
+}
+.pullquote:before {
+  content: '\201C';
+  position: absolute;
+  top: 0.25em;
+  left: -0.15em;
+  color: #4882A3;
+  font-size: 6em;
+  z-index: -1;
+}
+
+.pullquote footer {
+  font-family: 'Lora';
+  font-size: 0.6em;
+  font-weight: normal;
+  color: #ffffff;
+  float: right;
+}
+.pullquote footer:before {
+  content: '\2015';
+}
+
+#question-mark {
+  float:right;
+  margin-right: 20px;
+  top: -400px;
+  z-index: -1;
+  position: relative;
+  display: inline-block;
+}
+
+/*-------- MAPS -------- */
+#embed {
+  font-family: 'Source Sans Pro', sans-serif;
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 1000px;
+  margin-bottom: ;
+  background-color: #fbfbfb;
+  padding: 2.4rem;
+  font-weight: 300;
+  border-radius: 5px;
+  border: 1px black solid;
+  display: block;
+}
+
+.map-title {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.map-sum {
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-family: 'Lora'
+}
+
+#map-container {
+  position: relative;
+  max-width: 400px;
+  float: left;
+}
+
+#map {
+  height: 600px;
+  width: 800px;
+}
+
+.mapboxgl-popup {
+  max-width: 400px;
+  font: 12px/20px 'Source Sans Pro', Arial, Helvetica, sans-serif;
+}
+
+.mapboxgl-popup-content {
+  font-family: 'Source Sans Pro';
+  font-size: 18px;
+  padding: 20px 10px 15px !important;
+  text-align: center;
+}
+
+.source {
+  font-size: 10px;
+  margin-top: 5px;
+  width: 100%;
+  font-family: 'Source Sans Pro'
+}
+/* MAP #1 */
+.marker {
+  background-image: url('https://raw.githubusercontent.com/johnstont05/soul-of-athens-medical-access-2020/master/images/phone-icon.png');
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+
 
 /*-------- MEDIA QUERIES --------*/
 @media (max-width:767px) {
@@ -69,12 +227,12 @@ p {
     line-height: 60px;
   }
 
-  .intro{
+  .intro-content {
     font-size: 20px;
     margin: 50px;
   }
 
   .call-video{
-    height: 300px;
+    height: 500px;
   }
 }
