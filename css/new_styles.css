@@ -4,7 +4,6 @@ body {
 }
 
 /* TEXT */
-
 a {
   color: inherit;
 }
@@ -22,6 +21,17 @@ h1 {
   text-align: center;
 }
 
+.dropcap {
+  color: #ffffff;
+  float: left;
+  font-family: 'Lora';
+  font-weight: 700;
+  float: left;
+  font-size: 5em;
+  line-height: .9em;
+  padding-right: 5px;
+}
+
 /* OTHER */
 hr {
   border: 1px solid #ffffff;
@@ -33,6 +43,9 @@ hr {
   padding-top: 100px;
 }
 
+.img-fluid {
+  padding-top: 100px;
+}
 
 /*-------- JUMBOTRON --------*/
 .jumbotron {
@@ -63,7 +76,6 @@ hr {
 }
 
 /*-------- CONTENT --------*/
-
 /* 911 CALL */
 /* .call-video {
   background-image: url("../images/911-bg.png");
@@ -71,28 +83,12 @@ hr {
   background-color: #ffffff;
   height: 1200px;
 } */
-
 #myVideo {
   position: absolute;
   right: 0;
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
-}
-
-#myBtn {
-  width: 200px;
-  font-size: 18px;
-  padding: 10px;
-  border: none;
-  background: #000;
-  color: #fff;
-  cursor: pointer;
-}
-
-#myBtn:hover {
-  background: #ddd;
-  color: black;
 }
 
 /* BOUNCY SCROLL */
@@ -102,7 +98,6 @@ hr {
   left: 50%;
   top: 95%;
 } */
-
 /* INTRO */
 .intro-content {
   text-align: center;
@@ -128,9 +123,9 @@ hr {
 
 /* PULL QUOTE */
 blockquote {
-    padding: 0;
-    margin-top: 100px;
-    margin-bottom: 10px;
+  padding: 0;
+  margin-top: 100px;
+  margin-bottom: 10px;
 }
 
 .pullquote {
@@ -142,6 +137,7 @@ blockquote {
   font-size: 32px;
   line-height: 1.5em;
 }
+
 .pullquote:before {
   content: '\201C';
   position: relative;
@@ -159,12 +155,13 @@ blockquote {
   color: #ffffff;
   float: right;
 }
+
 .pullquote footer:before {
   content: '\2015';
 }
 
 #question-mark {
-  float:right;
+  float: right;
   margin-right: 20px;
   top: -400px;
   z-index: -1;
@@ -228,6 +225,7 @@ blockquote {
   width: 100%;
   font-family: 'Source Sans Pro'
 }
+
 /* MAP #1 */
 .marker {
   background-image: url('https://raw.githubusercontent.com/johnstont05/soul-of-athens-medical-access-2020/master/images/phone-icon.png');
@@ -247,6 +245,32 @@ blockquote {
   padding-bottom: 100px;
 }
 
+/* MOBILE HEALTH CLINIC */
+.mobile-clinic-content {
+  height: 200px;
+}
+
+.mobile-clinic-text {
+  text-align: center;
+  font-family: 'Lora';
+  padding-bottom: 160px;
+  padding-top: 60px;
+  font-size: 22px;
+  margin: auto 0;
+  position: relative;
+}
+
+/* DAVE INTERVIEW */
+
+.dave-interview {
+  background-color: #ffffff;
+  overflow: hidden;
+  margin-top: 2200px;
+}
+
+.dave-pq {
+  padding-bottom: 100px;
+}
 
 /*-------- MEDIA QUERIES --------*/
 @media (max-width:767px) {
@@ -260,7 +284,7 @@ blockquote {
     margin: 50px;
   }
 
-  .call-video{
+  .call-video {
     height: 500px;
   }
 }
