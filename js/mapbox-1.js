@@ -3,9 +3,8 @@ var monument = [-82.0999, 39.4066];
 var map = new mapboxgl.Map({
   container: 'map',
   style: 'mapbox://styles/mapbox/streets-v11',
-  center: monument,
-  hash:true,
-  zoom: 11
+  center: [-82.0592, 39.4407],
+  zoom: 10.5
 });
 
 var geojson = {
