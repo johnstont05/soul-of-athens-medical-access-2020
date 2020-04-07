@@ -66,8 +66,6 @@ hr {
 .intro-content {
   text-align: center;
   font-family: 'Lora';
-  padding-left: 100px;
-  padding-right: 100px;
   padding-bottom: 130px;
   padding-top: 130px;
   font-size: 22px;
@@ -116,6 +114,7 @@ hr {
   height: 200px;
 }
 
+
 .emergency-services-text {
   text-align: center;
   font-family: 'Lora';
@@ -143,7 +142,7 @@ blockquote {
 }
 .pullquote:before {
   content: '\201C';
-  position: absolute;
+  position: relative;
   top: 0.25em;
   left: -0.15em;
   color: #4882A3;

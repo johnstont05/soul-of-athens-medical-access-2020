@@ -46,8 +46,8 @@ var geojson = {
         source: 'EMS',
         type: 'circle',
         paint: {
-            'circle-radius': 5,
-            'circle-color': '#000',
+            'circle-radius': 10,
+            'circle-color': 'red',
             'circle-opacity': 0.85,
             'circle-stroke-color': '#000',
             'circle-stroke-width': 1
