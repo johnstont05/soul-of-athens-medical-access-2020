@@ -27,7 +27,6 @@
   <script src="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.js"></script>
   <link href="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.css" rel="stylesheet" />
 
-
   <!-- CSS -->
   <link rel="stylesheet" href="css/new_styles.css" />
 
@@ -82,13 +81,13 @@
           <hr>
           <div class="col-md-8 mx-auto">
             <p class="emergency-services-text">The Athens County EMS station often has difficulty finding homes or accidents in the area. The Chief of the Athens County EMS, Rick Calebs said the ambulance searching for the logging accident on
-              Mountville was challenging to find from the description from the caller. </p>
+              Mountville was challenging to find from the description from the caller.</p>
+            <blockquote class="pullquote">
+              The ambulance only knew the road and it is a particularly long road, the ambulance did not know which end to enter and had nothing to go on."
+              <footer> Rick Calebs, the chief of Athens County Medical Services (ACMS)</footer>
+              <img src="images/question-mark_gray.png" width="50%" height="50%" id="question-mark">
+            </blockquote>
           </div>
-          <blockquote class="pullquote">
-            "The ambulance only knew the road and it is a particularly long road, the ambulance did not know which end to enter and had nothing to go on."
-            <footer> Rick Calebs, the chief of Athens County Medical Services (ACMS)</footer>
-            <img src="images/question-mark_gray.png" width="50%" height="50%" id="question-mark">
-          </blockquote>
         </div>
       </div>
     </div>
@@ -110,6 +109,46 @@
   </div>
   <!-- /MAP -->
 
+  <!-- EMERGENCY MEDICAL SERVICES CONTINUED -->
+  <section class="emergency-services">
+    <div class="container">
+      <div class="row">
+          <div class="col-md-8 mx-auto">
+            <p class="emergency-services-text"> The ambulance was traveling down the road, waiting to be flagged down by the caller.  It was unable to see the accident from the road. The Bureau of Workers’ Compensation is investigating this accident to discover if  the logging company is an unsafe workplace. <br><br>
+            This accident is one of many instances where finding a caller is problematic. Calebs describes a pethura of issues the EMTs have locating people in need.</p>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RICK CALEBS INTERVIEW -->
+  <section class="calebs-interview">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+        <blockquote class="pullquote calebs-pq" style="color:#213140">
+          It’s not as simple as you find in an urban area where they just give you a street address and you can go there."
+          <footer style="color:#213140"> Rick Calebs</footer>
+        </blockquote>
+      </div>
+    </div>
+    </div>
+    <video width="100%" id="vid" controls autoplay muted>
+      <source src="videos/call.mp4" type="video/mp4">
+      <source src="videos/call.ogg" type="video/ogg">
+      Your browser does not support HTML5 video.
+    </video>
+  </section>
+  <!-- /RICK CALEBS INTERVIEW -->
+  <!-- /EMERGENCY MEDICAL SERVICES CONTINUED -->
+
+
+
+
+
+
+
+
 
   <!-- JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -120,7 +159,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
   <!-- BOUNCY SCROLL -->
-  <script>
+  <!-- <script>
     $(document).ready(function() {
       $(".ct-btn-scroll").on('click', function(event) {
         if (this.hash !== "") {
@@ -139,7 +178,7 @@
       }, 5000);
 
     });
-  </script>
+  </script> -->
   <!-- /BOUNCY SCROLL -->
 </body>
 

@@ -63,13 +63,6 @@ hr {
 }
 
 /*-------- CONTENT --------*/
-.intro-content {
-  text-align: center;
-  font-family: 'Lora';
-  padding-bottom: 130px;
-  padding-top: 130px;
-  font-size: 22px;
-}
 
 /* 911 CALL */
 /* .call-video {
@@ -102,24 +95,33 @@ hr {
   color: black;
 }
 
+/* BOUNCY SCROLL */
+/*
 .ct-btn-scroll {
   position: absolute;
   left: 50%;
   top: 95%;
-}
+} */
 
-/* EMERGENCY MEDICAL SERVICES */
-
-.emergency-services-content {
-  height: 200px;
-}
-
-
-.emergency-services-text {
+/* INTRO */
+.intro-content {
   text-align: center;
   font-family: 'Lora';
   padding-bottom: 130px;
   padding-top: 130px;
+  font-size: 22px;
+}
+
+/* EMERGENCY MEDICAL SERVICES */
+.emergency-services-content {
+  height: 200px;
+}
+
+.emergency-services-text {
+  text-align: center;
+  font-family: 'Lora';
+  padding-bottom: 160px;
+  padding-top: 60px;
   font-size: 22px;
   margin: auto 0;
 }
@@ -129,14 +131,14 @@ blockquote {
     padding: 0;
     margin-top: 100px;
     margin-bottom: 10px;
-    margin-left: 220px;
-    margin-right: 220px;
 }
 
 .pullquote {
   font-family: 'Source Sans Pro', sans-serif;
   color: #ffffff;
-  font-weight: normal;
+  font-weight: bold;
+  width: 100%;
+  margin: auto 0;
   font-size: 32px;
   line-height: 1.5em;
 }
@@ -147,7 +149,7 @@ blockquote {
   left: -0.15em;
   color: #4882A3;
   font-size: 6em;
-  z-index: -1;
+  z-index: 1;
 }
 
 .pullquote footer {
@@ -176,8 +178,8 @@ blockquote {
   max-width: 900px;
   width: 100%;
   margin: 0 auto;
-  margin-top: 1000px;
-  margin-bottom: 100px;
+  margin-top: 900px;
+  margin-bottom: 20px;
   background-color: #fbfbfb;
   padding: 2.4rem;
   font-weight: 300;
@@ -235,6 +237,15 @@ blockquote {
   cursor: pointer;
 }
 
+/* RICK CALEBS INTERVIEW */
+.calebs-interview {
+  background-color: #ffffff;
+  z-index: -1;
+}
+
+.calebs-pq {
+  padding-bottom: 100px;
+}
 
 
 /*-------- MEDIA QUERIES --------*/
