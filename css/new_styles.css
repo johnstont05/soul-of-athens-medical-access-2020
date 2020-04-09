@@ -242,7 +242,6 @@ blockquote {
 }
 
 /* MOBILE HEALTH CLINIC */
-
 .mobile-clinic-text {
   text-align: center;
   font-family: 'Lora';
@@ -254,7 +253,6 @@ blockquote {
 }
 
 /* DAVE INTERVIEW */
-
 .dave-interview {
   background-color: #ffffff;
   overflow: hidden;
@@ -262,6 +260,19 @@ blockquote {
 
 .dave-pq {
   padding-bottom: 100px;
+}
+
+/* 360 PHOTO */
+
+/* ECONOMIC ACCESS */
+.economic-access-text {
+  text-align: center;
+  font-family: 'Lora';
+  padding-bottom: 160px;
+  padding-top: 60px;
+  font-size: 22px;
+  margin: auto 0;
+  position: relative;
 }
 
 /*-------- MEDIA QUERIES --------*/
