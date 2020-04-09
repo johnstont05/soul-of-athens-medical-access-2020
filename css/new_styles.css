@@ -108,9 +108,6 @@ hr {
 }
 
 /* EMERGENCY MEDICAL SERVICES */
-.emergency-services-content {
-  height: 200px;
-}
 
 .emergency-services-text {
   text-align: center;
@@ -175,7 +172,6 @@ blockquote {
   max-width: 900px;
   width: 100%;
   margin: 0 auto;
-  margin-top: 900px;
   margin-bottom: 20px;
   background-color: #fbfbfb;
   padding: 2.4rem;
@@ -246,9 +242,6 @@ blockquote {
 }
 
 /* MOBILE HEALTH CLINIC */
-.mobile-clinic-content {
-  height: 200px;
-}
 
 .mobile-clinic-text {
   text-align: center;
@@ -265,7 +258,6 @@ blockquote {
 .dave-interview {
   background-color: #ffffff;
   overflow: hidden;
-  margin-top: 2200px;
 }
 
 .dave-pq {
