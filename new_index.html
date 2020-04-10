@@ -34,6 +34,14 @@
 
 <body>
 
+  <!-- SCROLL INDICATOR -->
+  <section class="scroll-indicator">
+    <div class="progress-container">
+      <div class="progress-bar" id="myBar"></div>
+    </div>
+  </section>
+  <!-- /SCROLL INDICATOR -->
+
   <!-- VIDEO -->
   <section class="call-video">
     <!-- <div class="container"> -->
@@ -343,9 +351,11 @@
               <br><br>
               This service was originally for senior citizens and individuals with disabilities for $1 one way, but as of Jan. 1, 2020, can now be used by anyone for the cost of $2 one way.
               <br><br>
-              “I'm seeing a lot of people that might have recurring appointments that they can get transportation to sometimes, but not all the time,” Schmitzer said. “A big reason for that is because our transportation programs are really at capacity because there's such a huge need.”
+              “I'm seeing a lot of people that might have recurring appointments that they can get transportation to sometimes, but not all the time,” Schmitzer said. “A big reason for that is because our transportation programs are really at
+              capacity because there's such a huge need.”
               <br><br>
-              “So we got together with Athens on Demand Transit and Green Cab, and came up with this really cool collaboration. If someone is stranded at the emergency room, then OhioHealth staff can call either Athens On Demand Transit or Green Cab, depending on the time of day, and they could go pick them up at the cost of OhioHealth and then bring them back home,” Schmitzer said.
+              “So we got together with Athens on Demand Transit and Green Cab, and came up with this really cool collaboration. If someone is stranded at the emergency room, then OhioHealth staff can call either Athens On Demand Transit or Green Cab,
+              depending on the time of day, and they could go pick them up at the cost of OhioHealth and then bring them back home,” Schmitzer said.
             </p>
           </div>
         </div>
@@ -363,6 +373,20 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
+  <!-- SCROLL INDICATOR -->
+  <script>
+    // When the user scrolls the page, execute myFunction
+    window.onscroll = function() {
+      myFunction()
+    };
+
+    function myFunction() {
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 100;
+      document.getElementById("myBar").style.width = scrolled + "%";
+    }
+  </script>
   <!-- BOUNCY SCROLL -->
   <!-- <script>
     $(document).ready(function() {

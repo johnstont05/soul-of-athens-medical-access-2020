@@ -47,42 +47,16 @@ hr {
   padding-top: 100px;
 }
 
-/*-------- JUMBOTRON --------*/
-.jumbotron {
-  border-radius: 0rem;
-  background-color: rgba(49, 103, 140, 0.6);
-  height: 200px;
-  background-size: cover;
-}
-
-.web-hed {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: bold;
-  font-size: 140px;
-  line-height: 151px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #ffffff;
-}
-
-.web-sum {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-style: italic;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 53px;
-  text-align: center;
-  color: rgba(255, 255, 255, 0.7);
+.scroll-indicator {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #f1f1f1;
 }
 
 /*-------- CONTENT --------*/
 /* 911 CALL */
-/* .call-video {
-  background-image: url("../images/911-bg.png");
-  background-size: cover;
-  background-color: #ffffff;
-  height: 1200px;
-} */
 #myVideo {
   position: absolute;
   right: 0;
@@ -91,13 +65,6 @@ hr {
   min-height: 100%;
 }
 
-/* BOUNCY SCROLL */
-/*
-.ct-btn-scroll {
-  position: absolute;
-  left: 50%;
-  top: 95%;
-} */
 /* INTRO */
 .intro-content {
   text-align: center;
@@ -107,8 +74,20 @@ hr {
   font-size: 22px;
 }
 
-/* EMERGENCY MEDICAL SERVICES */
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
 
+/* The progress bar (scroll indicator) */
+.progress-bar {
+  height: 8px;
+  background: #4caf50;
+  width: 0%;
+}
+
+/* EMERGENCY MEDICAL SERVICES */
 .emergency-services-text {
   text-align: center;
   font-family: 'Lora';
@@ -263,7 +242,6 @@ blockquote {
 }
 
 /* 360 PHOTO */
-
 /* ECONOMIC ACCESS */
 .economic-access-text {
   text-align: center;
@@ -284,7 +262,6 @@ blockquote {
   font-size: 22px;
   margin: auto 0;
   position: relative;
-}
 }
 
 /*-------- MEDIA QUERIES --------*/
