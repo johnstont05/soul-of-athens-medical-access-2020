@@ -275,6 +275,18 @@ blockquote {
   position: relative;
 }
 
+/* HAPCAP */
+.hapcap-text {
+  text-align: center;
+  font-family: 'Lora';
+  padding-bottom: 160px;
+  padding-top: 60px;
+  font-size: 22px;
+  margin: auto 0;
+  position: relative;
+}
+}
+
 /*-------- MEDIA QUERIES --------*/
 @media (max-width:767px) {
   .web-hed {
