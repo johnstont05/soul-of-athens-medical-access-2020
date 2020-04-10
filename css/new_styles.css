@@ -1,0 +1,282 @@
+/*-------- GLOBAL STYLES --------*/
+body {
+  background-color: #213140;
+}
+
+/* TEXT */
+a {
+  color: inherit;
+}
+
+p {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 100px;
+  color: #FFFFB6;
+  font-weight: bold;
+  text-align: center;
+}
+
+.dropcap {
+  color: #ffffff;
+  float: left;
+  font-family: 'Lora';
+  font-weight: 700;
+  float: left;
+  font-size: 5em;
+  line-height: .9em;
+  padding-right: 5px;
+}
+
+/* OTHER */
+hr {
+  border: 1px solid #ffffff;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.container {
+  padding-top: 100px;
+}
+
+.img-fluid {
+  padding-top: 100px;
+}
+
+.scroll-indicator {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+/*-------- CONTENT --------*/
+/* 911 CALL */
+#myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* INTRO */
+.intro-content {
+  text-align: center;
+  font-family: 'Lora';
+  padding-bottom: 130px;
+  padding-top: 130px;
+  font-size: 22px;
+}
+
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+  height: 8px;
+  background: #4caf50;
+  width: 0%;
+}
+
+/* EMERGENCY MEDICAL SERVICES */
+.emergency-services-text {
+  text-align: center;
+  font-family: 'Lora';
+  padding-bottom: 160px;
+  padding-top: 60px;
+  font-size: 22px;
+  margin: auto 0;
+}
+
+/* PULL QUOTE */
+blockquote {
+  padding: 0;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+.pullquote {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #ffffff;
+  font-weight: bold;
+  width: 100%;
+  margin: auto 0;
+  font-size: 32px;
+  line-height: 1.5em;
+}
+
+.pullquote:before {
+  content: '\201C';
+  position: relative;
+  top: 0.25em;
+  left: -0.15em;
+  color: #4882A3;
+  font-size: 6em;
+  z-index: 1;
+}
+
+.pullquote footer {
+  font-family: 'Lora';
+  font-size: 0.6em;
+  font-weight: normal;
+  color: #ffffff;
+  float: right;
+}
+
+.pullquote footer:before {
+  content: '\2015';
+}
+
+#question-mark {
+  float: right;
+  margin-right: 20px;
+  top: -400px;
+  z-index: -1;
+  position: relative;
+  display: inline-block;
+}
+
+/*-------- MAPS -------- */
+#embed {
+  font-family: 'Source Sans Pro', sans-serif;
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background-color: #fbfbfb;
+  padding: 2.4rem;
+  font-weight: 300;
+  border-radius: 5px;
+  border: 1px black solid;
+  display: block;
+}
+
+.map-title {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.map-sum {
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-family: 'Lora'
+}
+
+#map-container {
+  position: relative;
+  max-width: 400px;
+  float: left;
+}
+
+#map {
+  height: 600px;
+  width: 800px;
+}
+
+.mapboxgl-popup {
+  max-width: 400px;
+  font: 12px/20px 'Source Sans Pro', Arial, Helvetica, sans-serif;
+}
+
+.mapboxgl-popup-content {
+  font-family: 'Source Sans Pro';
+  font-size: 18px;
+  padding: 20px 10px 15px !important;
+  text-align: center;
+}
+
+.source {
+  font-size: 10px;
+  margin-top: 5px;
+  width: 100%;
+  font-family: 'Source Sans Pro'
+}
+
+/* MAP #1 */
+.marker {
+  background-image: url('https://raw.githubusercontent.com/johnstont05/soul-of-athens-medical-access-2020/master/images/phone-icon.png');
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+/* RICK CALEBS INTERVIEW */
+.calebs-interview {
+  background-color: #ffffff;
+  z-index: -1;
+}
+
+.calebs-pq {
+  padding-bottom: 100px;
+}
+
+/* MOBILE HEALTH CLINIC */
+.mobile-clinic-text {
+  text-align: center;
+  font-family: 'Lora';
+  padding-bottom: 160px;
+  padding-top: 60px;
+  font-size: 22px;
+  margin: auto 0;
+  position: relative;
+}
+
+/* DAVE INTERVIEW */
+.dave-interview {
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.dave-pq {
+  padding-bottom: 100px;
+}
+
+/* 360 PHOTO */
+/* ECONOMIC ACCESS */
+.economic-access-text {
+  text-align: center;
+  font-family: 'Lora';
+  padding-bottom: 160px;
+  padding-top: 60px;
+  font-size: 22px;
+  margin: auto 0;
+  position: relative;
+}
+
+/* HAPCAP */
+.hapcap-text {
+  text-align: center;
+  font-family: 'Lora';
+  padding-bottom: 160px;
+  padding-top: 60px;
+  font-size: 22px;
+  margin: auto 0;
+  position: relative;
+}
+
+/*-------- MEDIA QUERIES --------*/
+@media (max-width:767px) {
+  .web-hed {
+    font-size: 70px;
+    line-height: 60px;
+  }
+
+  .intro-content {
+    font-size: 20px;
+    margin: 50px;
+  }
+
+  .call-video {
+    height: 500px;
+  }
+}
