@@ -9,7 +9,7 @@
   <meta name="author" content="Taylor Johnston | taylorfjohnston@gmail.com">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Soul of Athens | Medical Access</title>
+  <title>Soul of Athens | A Long Road</title>
 
   <!-- FONT AWESOME -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -29,6 +29,7 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="css/new_styles.css" />
+  <link rel="stylesheet" href="css/global.css" />
 
 </head>
 
@@ -43,42 +44,7 @@
   <!-- /SCROLL INDICATOR -->
 
   <!-- VIDEO -->
-  <section class="call-video">
-    <!-- <div class="container"> -->
-    <video width="100%" id="vid" controls autoplay muted>
-      <source src="videos/call.mp4" type="video/mp4">
-      <source src="videos/call.ogg" type="video/ogg">
-      Your browser does not support HTML5 video.
-    </video>
-
-    <!-- </div> -->
-  </section>
-
   <!-- /VIDEO -->
-
-  <!-- JUMBOTRON -->
-  <!-- <section class="jumbotron" id="scrollDown">
-    <div class="jumbotron-content">
-      <div class="container">
-        <div class="web-hed">MEDICAL ACCESS</div>
-        <div class="web-sum">Exploring health care transportation in Southeast Ohio.</div>
-      </div>
-    </div>
-  </section> -->
-  <!-- /JUMBOTRON -->
-
-  <!-- INTRO -->
-  <section class="intro-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 mx-auto">
-          <p class="intro-content" class="col">The opportunity to receive health care is defined as <b><i>medical access</i></b>. In Athens County of Southeast Ohio, many residents struggle to get proper care as a result of the county’s rural
-            landscape and transportation barriers.
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- /INTRO -->
 
   <!-- EMERGENCY MEDICAL SERVICES -->
   <section class="emergency-services">
@@ -387,28 +353,14 @@
       document.getElementById("myBar").style.width = scrolled + "%";
     }
   </script>
-  <!-- BOUNCY SCROLL -->
-  <!-- <script>
-    $(document).ready(function() {
-      $(".ct-btn-scroll").on('click', function(event) {
-        if (this.hash !== "") {
-          event.preventDefault();
-          var hash = this.hash;
-          $('html, body').animate({
-            scrollTop: $(hash).offset().top
-          }, 800, function() {
-            window.location.hash = hash;
-          });
-        }
-      });
+  <!-- SCROLL INIDCATOR -->
 
-      setInterval(function() {
-        $('.ct-btn-scroll').toggleClass("bounce");
-      }, 5000);
+  <!-- HEADER -->
 
-    });
-  </script> -->
-  <!-- /BOUNCY SCROLL -->
+  <!-- /HEADER -->
+
+
+
 </body>
 
 </html>

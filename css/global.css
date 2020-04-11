@@ -1,0 +1,60 @@
+/*-------- GLOBAL STYLES --------*/
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #213140;
+}
+
+/* TEXT */
+a {
+  color: inherit;
+}
+
+p {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 72px;
+  color: #FFFFB6;
+  font-weight: bold;
+  text-align: center;
+}
+
+.dropcap {
+  color: #ffffff;
+  float: left;
+  font-family: 'Lora';
+  font-weight: 700;
+  float: left;
+  font-size: 5em;
+  line-height: .9em;
+  padding-right: 5px;
+}
+
+/* OTHER */
+hr {
+  border: 1px solid #ffffff;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.container {
+  padding-top: 100px;
+}
+
+.img-fluid {
+  padding-top: 100px;
+}
+
+.scroll-indicator {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #f1f1f1;
+}

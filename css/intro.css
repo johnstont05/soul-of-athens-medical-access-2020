@@ -1,0 +1,128 @@
+
+/* HEADPHONES */
+.headphones-text {
+  color: #353535;
+  font-family: "Georgia";
+  font-weight: 800;
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  text-align: center;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.fa-headphones {
+  color: #FFFFB6;
+  font-size: 50px;
+}
+
+.fixed-button {
+  position: fixed;
+  margin: 50px;
+  bottom: 0px;
+  right: 0px;
+}
+
+
+/* FADE IN */
+.fadeIn {
+  margin-top: 25px;
+  font-size: 21px;
+  text-align: center;
+  -webkit-animation: fadein 2s;
+  /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s;
+  /* Firefox < 16 */
+  -ms-animation: fadein 2s;
+  /* Internet Explorer */
+  -o-animation: fadein 2s;
+  /* Opera < 12.1 */
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* VIMEO EMBED */
+.video-embed {
+  padding-top: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* DOWN BUTTON */
+.down-button {
+  margin: 50px;
+  text-align: center;
+}
+
+.fa-angle-down {
+  color: #FFFFB6;
+  font-size: 80px;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+/* INTRO */
+.intro-content {
+  text-align: center;
+  font-family: 'Lora';
+  font-size: 22px;
+  padding-bottom: 50px;
+}
+
+.continue-button {
+  text-align: center;
+}
