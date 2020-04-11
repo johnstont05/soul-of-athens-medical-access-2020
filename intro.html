@@ -34,10 +34,13 @@
       <div class="headphones-text">
         <i class="fa fa-headphones"></i>
         <p>Please put on headphones</p>
-        <a href="#scroll1"><button type="button" class="btn btn-outline-light">Begin</button></a>
+        <a href="#scroll1"><button type="button" class="btn btn-outline-light" id="button1" onclick="SwitchButtons('button1');" class="sideviewtoggle myButton">Begin</button></a>
+
       </div>
+
+
       <div class="fixed-button">
-        <a href="index.html"><button type="button" class="btn btn-outline-light">Skip intro</button></a>
+        <a href="index.html"><button type="button" class="btn btn-outline-light" id="button2" onclick="SwitchButtons('button2');" class="sideviewtoggle myButton">Skip intro</button></a>
       </div>
     </div>
   </section>
@@ -46,15 +49,15 @@
   <!-- VIMEO EMBED -->
   <section class="video">
     <div class="container">
-        <div class="video-embed">
-          <iframe id="scroll1" src="https://player.vimeo.com/video/404858761?title=0&byline=0&portrait=0" width="1080" height="608" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      <div class="video-embed">
+        <iframe id="scroll1" src="https://player.vimeo.com/video/404858761?title=0&byline=0&portrait=0" width="1080" height="608" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      </div>
+      <div class="col-md-8 mx-auto">
+        <div class="down-button">
+          <a href="#scroll2"><i class="fa fa-angle-down"></i></a>
         </div>
-        <div class="col-md-8 mx-auto">
-          <div class="down-button">
-            <a href="#scroll2"><i class="fa fa-angle-down"></i></a>
-          </div>
-        </div>
-        <div>
+      </div>
+      <div>
   </section>
   <!-- /VIMEO EMBED -->
 
@@ -64,7 +67,8 @@
     <div class="container">
       <div class="row">
         <div class="col-md-8 mx-auto">
-          <p class="intro-content" id="scroll2" class="col">The opportunity to receive health care is defined as <b><i>medical access</i></b>. In Athens County of Southeast Ohio, many residents struggle to get proper care as a result of the county’s rural
+          <p class="intro-content" id="scroll2" class="col">The opportunity to receive health care is defined as <b><i>medical access</i></b>. In Athens County of Southeast Ohio, many residents struggle to get proper care as a result of the county’s
+            rural
             landscape and transportation barriers.
           </p>
           <div class="continue-button">
@@ -86,6 +90,23 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!-- HIDE BUTTON -->
+  <script>
+    function SwitchButtons(buttonId) {
+      var hideBtn, showBtn, menuToggle;
+      if (buttonId == 'button1') {
+        hideBtn = 'button2';
+      } else {
+        showBtn = 'button1';
+        hideBtn = 'button2';
+      }
+
+      document.getElementById(hideBtn).style.display = 'none';
+      document.getElementById(showBtn).style.display = ''; 
+
+    }
+  </script>
 
 </body>
 
