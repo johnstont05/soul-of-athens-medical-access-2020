@@ -1,5 +1,4 @@
 /*-------- CONTENT --------*/
-
 /* SCROLL INDICATOR */
 .progress-container {
   width: 100%;
@@ -9,8 +8,65 @@
 
 .progress-bar {
   height: 8px;
-  background: #4caf50;
+  background: #FFFFB6;
   width: 0%;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+  background-image: url("../images/drone.jpg");
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-wrap: wrap;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-align-content: center;
+  align-content: center;
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  min-height: calc(100vh - 56px);
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  position: relative;
+  overflow: hidden;
+  background-position: 50%;
+  border-radius: 0rem;
+}
+
+.jumbotron .jumbotron-content {
+  position: absolute;
+  top: 40%;
+  text-align: center;
+  left: 0;
+  right: 0;
+}
+
+.jumbotron .jumbotron-content h1 {
+  font-size: 120px;
+  color: #fff;
+}
+
+.jumbotron .jumbotron-content hr {
+  border: 1px solid #FFFFB6;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.color-overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(33, 49, 64, 0.7);
+  opacity: .6;
+  position: absolute;
 }
 
 /* EMERGENCY MEDICAL SERVICES */

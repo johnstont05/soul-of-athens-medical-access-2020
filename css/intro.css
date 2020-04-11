@@ -1,5 +1,7 @@
-
 /* HEADPHONES */
+.headphones {
+  height: 100vh;
+}
 .headphones-text {
   color: #353535;
   font-family: "Georgia";
@@ -21,10 +23,6 @@
   margin: 50px;
   bottom: 0px;
   right: 0px;
-}
-
-#d3 {
-    /* display: none; */
 }
 
 /* FADE IN */
@@ -98,16 +96,20 @@
 }
 
 /* VIMEO EMBED */
+.video {
+  height: 100vh;
+
+}
 .video-embed {
-  padding-top: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin: 0 auto;
+
 }
 
 /* DOWN BUTTON */
 .down-button {
-  margin: 50px;
   text-align: center;
 }
 
@@ -115,15 +117,16 @@
   color: #FFFFB6;
   font-size: 80px;
   text-align: center;
-  padding-bottom: 100px;
 }
 
 /* INTRO */
+.intro-section {
+  height: 100vh;
+}
 .intro-content {
-  text-align: center;
   font-family: 'Lora';
   font-size: 22px;
-  padding-bottom: 50px;
+  text-align: center;
 }
 
 .continue-button {
