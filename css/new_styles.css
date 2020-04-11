@@ -70,52 +70,17 @@
 }
 
 /* EMERGENCY MEDICAL SERVICES */
+.emergency-services-content {
+margin-bottom: -300px;
+}
+
 .emergency-services-text {
-  text-align: center;
+  text-align: left;
   font-family: 'Lora';
   padding-bottom: 160px;
   padding-top: 60px;
   font-size: 22px;
   margin: auto 0;
-}
-
-/* PULL QUOTE */
-blockquote {
-  padding: 0;
-  margin-top: 100px;
-  margin-bottom: 10px;
-}
-
-.pullquote {
-  font-family: 'Source Sans Pro', sans-serif;
-  color: #ffffff;
-  font-weight: bold;
-  width: 100%;
-  margin: auto 0;
-  font-size: 32px;
-  line-height: 1.5em;
-}
-
-.pullquote:before {
-  content: '\201C';
-  position: relative;
-  top: 0.25em;
-  left: -0.15em;
-  color: #4882A3;
-  font-size: 6em;
-  z-index: 1;
-}
-
-.pullquote footer {
-  font-family: 'Lora';
-  font-size: 0.6em;
-  font-weight: normal;
-  color: #ffffff;
-  float: right;
-}
-
-.pullquote footer:before {
-  content: '\2015';
 }
 
 #question-mark {
@@ -125,6 +90,33 @@ blockquote {
   z-index: -1;
   position: relative;
   display: inline-block;
+}
+.image {
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+height: 100vh;
+background-repeat: no-repeat;
+background-size: cover;
+flex-wrap: wrap;
+-webkit-justify-content: center;
+justify-content: center;
+-webkit-align-items: center;
+align-items: center;
+-webkit-align-content: center;
+align-content: center;
+display: -webkit-flex;
+display: flex;
+width: 100%;
+min-height: calc(100vh - 56px);
+-webkit-flex-wrap: wrap;
+flex-wrap: wrap;
+position: relative;
+overflow: hidden;
+background-position: 50%;
+border-radius: 0rem;
 }
 
 /*-------- MAPS -------- */

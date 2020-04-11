@@ -44,7 +44,8 @@ hr {
 }
 
 .container {
-  padding-top: 100px;
+  padding-top: 20px;
+  padding-bottom: -20px;
 }
 
 .img-fluid {
@@ -57,4 +58,43 @@ hr {
   z-index: 1;
   width: 100%;
   background-color: #f1f1f1;
+}
+
+/* PULL QUOTE */
+blockquote {
+  padding: 0;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+.pullquote {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #ffffff;
+  font-weight: bold;
+  width: 100%;
+  margin: auto 0;
+  font-size: 32px;
+  line-height: 1.5em;
+}
+
+.pullquote:before {
+  content: '\201C';
+  position: relative;
+  top: 0.25em;
+  left: -0.15em;
+  color: #4882A3;
+  font-size: 6em;
+  z-index: 1;
+}
+
+.pullquote footer {
+  font-family: 'Lora';
+  font-size: 0.6em;
+  font-weight: normal;
+  color: #ffffff;
+  float: right;
+}
+
+.pullquote footer:before {
+  content: '\2015';
 }
