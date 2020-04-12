@@ -22,14 +22,12 @@
   <!-- BOOTSTRAP -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-  <!-- PARALLAX -->
-
-
   <!-- CSS -->
   <link rel="stylesheet" href="css/intro.css" />
   <link rel="stylesheet" href="css/global.css" />
 
 </head>
+
 <body>
 
   <!-- HEADPHONES -->
@@ -51,7 +49,11 @@
   <section class="video" id="scroll1">
     <div class="container h-100 d-flex align-items-center">
       <div class="video-embed">
-        <iframe src="https://player.vimeo.com/video/404858761?title=0&byline=0&portrait=0" width="1080" height="608" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        <video width="600" controls>
+          <source src="videos/call.mp4" type="video/mp4">
+          <source src="videos/call.ogg" type="video/ogg">
+          Your browser does not support HTML5 video.
+        </video>
         <div class="col-md-8 mx-auto">
           <div class="down-button">
             <a href="#scroll2"><i class="fa fa-angle-down"></i></a>
@@ -61,7 +63,6 @@
       <div>
   </section>
   <!-- /VIMEO EMBED -->
-
 
   <!-- INTRO -->
   <section class="intro-section" id="scroll2">
@@ -80,11 +81,7 @@
     </div>
   </section>
   <!-- /INTRO -->
-
-
-
-
-
+  
   <!-- JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

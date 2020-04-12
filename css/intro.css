@@ -98,7 +98,11 @@
 /* VIMEO EMBED */
 .video {
   height: 100vh;
+}
 
+video {
+  width: 100%;
+  height: auto;
 }
 .video-embed {
   display: block;
@@ -131,4 +135,19 @@
 
 .continue-button {
   text-align: center;
+}
+
+/* MEDIA QUERIES */
+/* TABLET */
+@media screen and (max-width: 992px) {
+  .intro-content {
+    padding: 10px;
+  }
+}
+
+/* MOBILE */
+@media screen and (max-width: 600px) {
+  .intro-content {
+    padding: 50px;
+  }
 }
