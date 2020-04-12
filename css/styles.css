@@ -179,7 +179,18 @@ header .overlay {
   background-color: #ffffff;
   overflow: hidden;
 }
+
+/* COVID-19 */
+.covid-19-text {
+  text-align: center;
+  font-family: 'Lora';
+  padding-bottom: 160px;
+  padding-top: 60px;
+  font-size: 22px;
+  margin: auto 0;
+  position: relative;
 }
+
 
 /*-------- MEDIA QUERIES --------*/
 @media (max-width:767px) {
