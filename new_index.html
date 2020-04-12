@@ -30,6 +30,9 @@
   <!-- CSS -->
   <link rel="stylesheet" href="css/new_styles.css" />
 
+<!-- Parallax -->
+  <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.2.0/dist/simpleParallax.min.js"></script>
+
 </head>
 
 <body>
@@ -186,8 +189,6 @@
       </div>
     </div>
   </section>
-  <!-- /PHOTO CAROUSEL -->
-  <!-- /EMERGENCY MEDICAL SERVICES CONTINUED -->
 
   <!-- MOBILE HEALTH CLINIC -->
   <section class="mobile-clinic">
@@ -196,7 +197,11 @@
         <div class="mobile-clinic-content">
           <h1>MOBILE HEALTH CLINIC</h1>
           <hr>
+          <div class="col-md-12">
+
+          </div>
           <div class="col-md-8 mx-auto">
+             <img class="thumbnail" src="images/Dave.png" alt="image">
             <img src="images/dave-1.jpg" class="img-fluid" alt="Responsive image">
             <p class="mobile-clinic-text">INFO ABOUT DAVE GOES HERE</p>
             <p class="mobile-clinic-text text-left"><span class="dropcap">S</span>herri Oliver, the Executive Director for Community Health Programs and Area Health Education Center, helps to run a free clinic on campus through the Heritage College
@@ -386,6 +391,18 @@
       var scrolled = (winScroll / height) * 100;
       document.getElementById("myBar").style.width = scrolled + "%";
     }
+  </script>
+  <script>
+  // ES6 import
+import simpleParallax from 'simple-parallax-js';
+
+// CommonJS
+const simpleParallax = require('simple-parallax-js');
+
+var image = document.getElementsByClassName('thumbnail');
+new simpleParallax(image);{
+    scale: 10
+}
   </script>
   <!-- BOUNCY SCROLL -->
   <!-- <script>
