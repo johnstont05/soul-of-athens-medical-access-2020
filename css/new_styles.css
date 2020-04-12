@@ -241,7 +241,23 @@ blockquote {
   padding-bottom: 100px;
 }
 /*Dave Parallax */
+/* places image into .dave-bg div background */
+.dave-bg {
+    height: 575px;
+    background-image: url(../images/DaveBackground.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: contain;
+    overflow-y: hidden;
+    margin-top: 80px;
+}
 
+.dave-bg img {
+    min-height: 100%;
+    width:
+    /* could also add a width: some%; to change the scale of the foreground image */
+}
 
 
 /* 360 PHOTO */
