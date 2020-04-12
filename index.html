@@ -28,7 +28,7 @@
   <link href="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.css" rel="stylesheet" />
 
   <!-- CSS -->
-  <link rel="stylesheet" href="css/new_styles.css" />
+  <link rel="stylesheet" href="css/styles.css" />
   <link rel="stylesheet" href="css/global.css" />
 
 </head>
@@ -43,20 +43,24 @@
   </section>
   <!-- /SCROLL INDICATOR -->
 
-  <!-- JUMBOTRON -->
-  <section class="jumbotron">
-    <div class="color-overlay"></div>
-    <div class="container">
-      <div class="row">
-        <div class="jumbotron-content">
-          <h1>A LONG ROAD</h1>
-          <hr>
+  <!-- HEADER -->
+  <header>
+    <div class="overlay"></div>
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+      <source src="videos/intro.mp4" type="video/mp4">
+    </video>
+    <div class="container h-100">
+      <div class="d-flex h-100 text-center align-items-center">
+        <div class="w-100">
+          <div class="header-content">
+            <h1>A LONG ROAD</h1>
+            <hr>
+          </div>
         </div>
       </div>
     </div>
-  </section>
-
-  <!-- JUMBOTRON -->
+  </header>
+  <!-- HEADER -->
 
   <!-- EMERGENCY MEDICAL SERVICES -->
   <section class="emergency-services">
@@ -78,9 +82,9 @@
         </div>
       </div>
     </div>
-    <!-- <div class="image image-fluid">
+    <div class="image image-fluid">
       <img src="images/EMS-1.jpg">
-    </div> -->
+    </div>
     <div class="container">
       <div class="row">
         <div class="col-md-8 mx-auto">
@@ -94,27 +98,35 @@
   <!-- /EMERGENCY MEDICAL SERVICES -->
 
   <!-- MAP #1 -->
-  <div id="embed">
-    <div class="embed_text">
-      <div class="map-title">Finding the Caller</div>
-      <div class="map-sum">This map highlights the spot where the 911 caller was located when they were having trouble with their phone connection.</div>
-    </div>
-    <div class="embed__content clearfix">
-      <div id="map-container">
-        <div id="map"></div>
-        <div class="source"><b>SOURCE:</b> Athens County Emergency Medical Services</div>
-      </div>
-    </div>
+  <div style="width:100%; padding-bottom:56.25%; position:relative;">
+    <iframe src="mapbox/map-1.html" style="position:absolute; top:0px; left:0px;
+  width:100%; height:100%; border: none; overflow: hidden;"></iframe>
   </div>
-  <!-- /MAP -->
+  <!-- /MAP #1 -->
 
   <!-- EMERGENCY MEDICAL SERVICES CONTINUED -->
+  <section class="emergency-services">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <p class="emergency-services-text">
+            The Bureau of Workers’ Compensation is currently investigating as to whether or not the logging company mentioned above provided a safe working environment. The victim of the accident in question did not survive.
+            <br><br>
+            Chief Calebs explained that inadequate cell phone coverage and unmarked roads are common issues encountered by his department when responding to emergency calls. Many regions in the county experience poor or no cell service. Many of these
+            roads are unmarked, increasing the level of difficulty experienced searching for callers. While county engineers work to update signage in the area, signs are often knocked down by snow plows, may be vandalized or disappear for unknown
+            reasons.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /EMERGENCY MEDICAL SERVICES CONTINUED -->
 
   <!-- RICK CALEBS INTERVIEW -->
   <section class="calebs-interview">
     <video width="100%" id="vid" controls autoplay muted>
-      <!-- <source src="videos/calebs.mp4" type="video/mp4">
-      <source src="videos/calebs.ogg" type="video/ogg"> -->
+      <source src="videos/calebs.mp4" type="video/mp4">
+      <source src="videos/calebs.ogg" type="video/ogg">
       Your browser does not support HTML5 video.
     </video>
     <div class="container">
@@ -129,6 +141,7 @@
     </div>
   </section>
   <!-- /RICK CALEBS INTERVIEW -->
+  <!-- EMEGENCY MEDICAL SERVICES -->
   <section class="emergency-services">
     <div class="container">
       <div class="row">
@@ -140,22 +153,21 @@
         </div>
       </div>
     </div>
-    <!-- <div class="image image-fluid">
+    <div class="image image-fluid">
       <img src="images/EMS-2.jpg">
-    </div> -->
+    </div>
     <div class="container">
       <div class="row">
         <div class="col-md-8 mx-auto">
           <p class="emergency-services-text">
-            Common issues for which Athens EMS receives calls include shortness of breath, chest pain, lung problems, heart problems and long-term health issues. Southeast Ohio experiences disproportionally high levels of illnesses such as depression, heart disease, and diabetes. This health crisis has gained the attention of health professionals in the area, who are seeking solutions that are accessible and reliable for patients.
+            Common issues for which Athens EMS receives calls include shortness of breath, chest pain, lung problems, heart problems and long-term health issues. Southeast Ohio experiences disproportionally high levels of illnesses such as
+            depression, heart disease, and diabetes. This health crisis has gained the attention of health professionals in the area, who are seeking solutions that are accessible and reliable for patients.
           </p>
         </div>
       </div>
     </div>
   </section>
-  <!-- /EMERGENCY MEDICAL SERVICES CONTINUED -->
-
-
+  <!-- /EMERGENCY MEDICAL SERVICES -->
 
   <!-- MOBILE HEALTH CLINIC -->
   <section class="mobile-clinic">
@@ -165,22 +177,66 @@
           <h1>MOBILE HEALTH CLINIC</h1>
           <hr>
           <div class="col-md-8 mx-auto">
-            <img src="images/dave-1.jpg" class="img-fluid" alt="Responsive image">
-            <p class="mobile-clinic-text">INFO ABOUT DAVE GOES HERE</p>
-            <p class="mobile-clinic-text text-left"><span class="dropcap">S</span>herri Oliver, the Executive Director for Community Health Programs and Area Health Education Center, helps to run a free clinic on campus through the Heritage College
-              of Osteopathic Medicine as well as two mobile health units that serve 24 counties in Southeast and Eastern Ohio. </p>
-            <blockquote class="pullquote">
-              We see people who don’t have access to transportation or don’t have access to reliable transportation."
-              <footer> Sherri Oliver, executive director for Community Health Programs and Area Health Education Center</footer>
-            </blockquote>
-            <img src="images/truck-graphic.png" class="img-fluid" alt="Responsive image">
-            <p class="mobile-clinic-text">The mobile health units are essentially “doctors’ offices on wheels.” They are 40-foot long trucks with two exam rooms and a waiting room. Nurse practitioners, medical students and registered nurses all
-              travel in the mobile health unit to counties to provide medical care through various health clinics.</p>
+            <p class="mobile-clinic-text text-left"><span class="dropcap">S</span>herri Oliver is the executive director for Community Health Programs and Area Health Education Center. In this role, Oliver helps run a free clinic on Ohio University’s
+              campus through the Heritage College of Osteopathic Medicine, along with two mobile health units that serve 24 counties in Southeastern and Eastern Ohio. The mobile health units treat patients that otherwise would not be able to afford a
+              visit to the doctor. As of April 2020, the mobile health trucks have suspended their operations due to COVID-19.</p>
           </div>
         </div>
       </div>
     </div>
+    <div class="image image-fluid">
+      <img src="images/clinic-1.jpg">
+    </div>
   </section>
+  <!-- /MOBILE HEALTH CLINIC -->
+
+  <!-- MAP #2 -->
+  <div style="width:100%; padding-bottom:50.25%; position:relative;">
+    <iframe src="mapbox/map-2.html" style="position:absolute; top:0px; left:0px;
+  width:100%; height:100%; border: none; overflow: hidden;"></iframe>
+  </div>
+  <!-- /MAP #2 -->
+
+  <!-- MOBILE HEALTH CLINIC CONTINUED -->
+  <section class="mobile-clinic">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <p class="mobile-clinic-text text-left">“The mobile health units are essentially “doctors’ offices on wheels,” Oliver explained. The trucks are 40-feet long, with two exam rooms and a waiting room. Nurse practitioners, medical students and
+            registered nurses all travel in the mobile health unit to counties to provide medical care through various health clinics. These units present an opportunity for the Heritage College students to gain hands-on experience, while interfacing
+            with real clients and providing a much needed service.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /MOBILE HEALTH CLINIC CONTINUED -->
+
+  <!-- 360 PHOTO -->
+  <section class="photo360">
+    <div style="width:100%; padding-bottom:56.25%; position:relative;">
+      <iframe src="images/360photo_code/app-files/index.html" style="position:absolute; top:0px; left:0px;
+  width:100%; height:100%; border: none; overflow: hidden;"></iframe>
+    </div>
+  </section>
+  <!-- /360 PHOTO -->
+
+  <!-- MOBILE HEALTH CLINIC CONTINUED -->
+  <section class="mobile-clinic">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <p class="mobile-clinic-text text-left">“We see people who don’t have access to transportation or don’t have access to reliable transportation,” Oliver said. The availability of the mobile health unit vehicles through the Heritage College
+            are one way in which regional leaders are seeking creative solutions to the protracted health issues of Southeast Ohio’s residents. For some, the availability of these services has become a part of their annual, or even monthly, routine.
+            <br><br>
+            <img src="images/truck-graphic.png" class="img-fluid" alt="Responsive image">
+            David Lee Pannell, 63, lives in Marietta, Ohio and visits the mobile health unit once a month in Coolville, Ohio. Pannell is diagnosed with diabetes and needs the free care and prescriptions that the unit provides, without these he would
+            not be able to live a normal life. Having a free mobile health clinic available for Pannell has made the idea of being healthy and cared for more achievable, without the stress of additional bills.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /MOBILE HEALTH CLINIC CONTINUED -->
 
   <!-- DAVE QUOTE -->
   <section class="dave-interview">
@@ -195,15 +251,24 @@
       </div>
     </div>
   </section>
-  <!-- /DAVE INTERVIEW -->
-  <!-- /MOBILE HEALTH CLINIC -->
+  <!-- /DAVE QUOTE -->
 
-  <!-- 360 PHOTO -->
-  <div style="width:100%; padding-bottom:56.25%; position:relative;">
-    <iframe src="images/360photo_code/app-files/index.html" style="position:absolute; top:0px; left:0px;
-  width:100%; height:100%; border: none; overflow: hidden;"></iframe>
-  </div>
-  <!-- /360 PHOTO -->
+  <!-- MOBILE HEALTH CLINIC CONTINUED -->
+  <section class="mobile-clinic">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <p class="mobile-clinic-text text-left">Once a month, Pannell and his wife Kathleen wake up at their home in Marietta, load up their car and make the half an hour drive along the Ohio River to Coolville. This is the closest unit location,
+            and without it the Pannells would have to drive an hour to Athens for a 20 minute health checkup. Pannell has been actively seeking care at the mobile health unit for over three years, and plans to continue for as long as he can. For
+            Dave, the truck’s services are what keep him alive.</p>
+        </div>
+      </div>
+    </div>
+    <div class="image image-fluid">
+      <img src="images/clinic-2.jpg">
+    </div>
+  </section>
+  <!-- /MOBILE HEALTH CLINIC CONTINUED -->
 
   <!-- ECONOMIC ACCESS -->
   <section class="economic-access">
@@ -213,117 +278,52 @@
           <h1>ECONOMIC ACCESS</h1>
           <hr>
           <div class="col-md-8 mx-auto">
-            <p class="economic-access-text text-left"><span class="dropcap">"B</span>ut sometimes we could take that, you know, medical health unit within maybe two miles of your house and if you don’t have a vehicle to get to us, sometimes we’re
-              still not totally meeting that transportation gap,” Sherri Oliver, the executive director for Community Health Programs and Area Health Education Center said."
+            <p class="economic-access-text text-left"><span class="dropcap">W</span>hile community leaders are working hard to ensure access to care for all, innovative programs like the mobile health units cannot address every need. “But sometimes
+              we could take that medical health unit within maybe two miles of your house and if you don’t have a vehicle to get to us, sometimes we’re still not totally meeting that transportation gap,” Oliver described.
               <br><br>
-              In order to meet that gap, Oliver finds herself and her colleagues at the Community Health Program using grants or community donations to give people gas cards in order to help people travel to their health clinics.</p>
+              In order to meet this gap, Oliver finds herself and her colleagues at the Community Health Program using grants or community donations to give people gas cards in order to help them travel to their health clinics.</p>
             <img src="images/gas-card.png" class="img-fluid" alt="Responsive image">
-            <p class="economic-access-text text-left">While transportation is a huge barrier for those receiving medical care, being uninsured is another issue.</p>
+            <p class="economic-access-text text-left">“We see a lot of people who have health insurance, but their health insurance has such a high deductible, that they can’t really use it,” Oliver said. “So, they’ll still come to the free clinic
+              and they’ll still seek out our services because they can’t access health care in a traditional setting.”</p>
           </div>
+        </div>
+      </div>
+    </div>
+    <div class="image image-fluid">
+      <img src="images/clinic-3.jpg">
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <p class="economic-access-text text-left">
+            When the uninsured or underinsured are unable to access care, the worlds of Sheri Oliver and Chief Calebs can collide. Calebs says that some community members may not call an ambulance because they cannot afford it. When these uninsured
+            members of the community do not see doctors regularly, their health issues can snowball into more protracted problems and lead to more intense situations for EMS. In addition, once they enter the health care system, the costs for care are
+            higher than the initial visit would have been because their conditions are so much worse.
+          </p>
+          <blockquote class="pullquote">
+            I think that's a huge issue that we have to deal with as a society because some people view healthcare as a right, other people are adamant that it's not a right”
+            <footer>Rick Calebs, Chief of ACMS</footer>
+          </blockquote>
         </div>
       </div>
     </div>
   </section>
   <!-- /ECONOMIC ACCESS -->
 
-  <!-- PHOTO CAROUSEL -->
-  <section class="photo-carousel">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 mx-auto">
-          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="d-block w-100" src="https://www.ipcc.ch/site/assets/uploads/sites/3/2019/10/img-placeholder.png" alt="First slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="https://lh3.googleusercontent.com/proxy/0iuVVcA-snXoz5WPo3YR0CfKV2VSzj9YMkw8jHUu0ibtOTTAV9PSorDbLem1DyOS6U5-hHIFQ1NBRFRBwX67oggItKWptyAQOtrr-9M50FXvqj894Qlyh93zoweUZqIhky2Tz0t9PW2UyQ4"
-                  alt="Second slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="https://www.sylvansport.com/wp/wp-content/uploads/2018/11/image-placeholder-1200x800.jpg" alt="Third slide">
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- /PHOTO CAROUSEL -->
-
-  <!-- ECONOMIC ACCESS CONTINUED -->
-  <section class="economic-access">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 mx-auto">
-          <blockquote class="pullquote">
-            We see a lot of people who have health insurance, but their health insurance has such a high deductible, that they can’t really use it... so, they’ll still come to the free clinic... because they can’t access health care in a traditional
-            setting.”
-            <footer> Sherri Oliver, Executive Director of Community Health Programs</footer>
-          </blockquote>
-          <p class="economic-access-text text-left">There is a group of people who are uninsured or unable to pay basic medical bills that can lead to a bigger issue, Calebs said. Community members may not call the ambulance because they cannot
-            afford it. All of this can cause bigger medical issues because they can not see a doctor when the issue first arises. Once they enter the health care system it is so expensive to treat them as their condition has become worse.
-            <br><br>
-            “But I think that's a huge issue that we have to deal with as a society because some people view healthcare as a right, other people are adamant that it's not a right,” Calebs said.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- /ECONOMIC ACCESS CONTINUED -->
-
-  <!-- CALEBS INTERVIEW -->
-  <section class="calebs-interview">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 mx-auto">
-          <blockquote class="pullquote calebs-pq" style="color:#213140">
-            But I think that's a huge issue that we have to deal with as a society because some people view healthcare as a right, other people are adamant that it's not a right”
-            <footer style="color:#213140">Rick Calebs, Chief of ACMS</footer>
-          </blockquote>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- CALEBS QUOTE -->
-
   <!-- HAPCAP -->
   <section class="hapcap">
     <div class="container">
       <div class="row">
         <div class="hapcap-content">
-          <h1>HOCKING ATHENS PERRY COUNTY ACTION (HAPCAP)</h1>
+          <h1>HOCKING ATHENS PERRY <br> COUNTY ACTION</h1>
           <hr>
           <div class="col-md-8 mx-auto">
-            <p class="hapcap-text text-left"><span class="dropcap">I</span>n non-emergent cases, Athens County has access to a cheaper mode of transportation through the Hocking Athens Perry Community Action (HAPCAP). HAPCAP has been working to
-              improve the community’s quality of life in the Tri-County area since the early 1960’s.
+            <p class="hapcap-text text-left"><span class="dropcap">I</span>In non-emergency cases, Athens County residents have access to a cheaper mode of transportation through the Hocking Athens Perry Community Action (HAPCAP). HAPCAP has been
+              working to improve the community’s quality of life in the Tri-County area since the early 1960’s.
               <br><br>
-              One of the five divisions of this nonprofit is transportation, including five transit programs.
-              <br><br>
-              Jessie Schmitzer, the Athens and Hocking County mobility manager with HAPCAP, plays a key role in the transportation services HAPCAP offers.
-              <br><br>
-              “Athens On Demand Transit is a door to door service that services all of Athens county and services anybody for any reason,” Schmitzer said.
-              <br><br>
-              This service was originally for senior citizens and individuals with disabilities for $1 one way, but as of Jan. 1, 2020, can now be used by anyone for the cost of $2 one way.
-              <br><br>
-              “I'm seeing a lot of people that might have recurring appointments that they can get transportation to sometimes, but not all the time,” Schmitzer said. “A big reason for that is because our transportation programs are really at
-              capacity because there's such a huge need.”
-              <br><br>
-              “So we got together with Athens on Demand Transit and Green Cab, and came up with this really cool collaboration. If someone is stranded at the emergency room, then OhioHealth staff can call either Athens On Demand Transit or Green Cab,
-              depending on the time of day, and they could go pick them up at the cost of OhioHealth and then bring them back home,” Schmitzer said.
+              One of the five divisions of the nonprofit’s focus is transportation. In HAPCAP’s transit office, Athens and Hocking County mobility manager, Jessie Schmitzer, plays a key role in managing the services that HAPCAP offers. “Athens On
+              Demand Transit is a door to door service that services all of Athens county and services anybody for any reason,” Schmitzer said. Originally provided for senior citizens and individuals with disabilities, as of Jan. 1, 2020, HAPAP has
+              opened Athens On Demand for use by anyone, for the cost of $2 one way.
             </p>
           </div>
         </div>
@@ -332,10 +332,67 @@
   </section>
   <!-- /HAPCAP -->
 
+  <!-- JESSIE QUOTE -->
+  <section class="jessie-quote">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <div class="audio-container">
+            <audio controls>
+              <source src="horse.ogg" type="audio/ogg">
+              <source src="horse.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="jessie-pq">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <blockquote class="pullquote dave-pq" style="color:#213140">
+            Medical access...it's all encompassing. So getting to the hospital, getting to the doctor, especially if it's a recurring appointment, that makes it really difficult to find that transportation constantly,” Schmitzer said."
+            <footer style="color:#213140">Jessie Schmitzer, Athens and Hocking County mobility manager</footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- JESSIE QUOTE -->
+
+  <!-- HAPCAP CONTINUED-->
+  <section class="hapcap">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <p class="hapcap-text text-left">“I'm seeing a lot of people that might have recurring appointments that they can get transportation to sometimes, but not all the time,” Schmitzer said.
+            “A big reason for that is because our transportation programs are really at capacity because there's such a huge need.”
+          </p>
+          <img src="images/calendar.png" class="img-fluid" alt="Responsive image">
+          <p class="hapcap-text text-left">The high demand for rides through HAPCAP managed transportation programs can be an issue for riders banking on the program as their ticket to the doctor’s office. Schmitzer said that once someone knows when
+            their next appointment is, they should call right away, in order to reserve a ride in time.
+            <br><br>
+            “So we got together with Athens on Demand Transit and Green Cab, and came up with this really cool collaboration. If someone is stranded at the emergency room, then OhioHealth staff can call either Athens On Demand Transit or Green Cab,
+            depending on the time of day, and they could go pick them up at the cost of OhioHealth and then bring them back home,” Schmitzer said.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="image image-fluid">
+      <img src="images/highway.jpg">
+    </div>
+  </section>
+  <!-- /HAPCAP CONTINUED -->
+
+  <!-- COVID-19 -->
+
 
   <!-- JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="js/mapbox-1.js"></script>
+  <script src="js/mapbox-2.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

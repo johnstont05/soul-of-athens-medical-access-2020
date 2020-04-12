@@ -1,284 +1,199 @@
-/* GLOBAL STYLES */
-body {
-  height: 1000px;
-}
-
-a {
-  color: inherit;
-}
-
-p {
-  font-size: 18px;
-}
-
-.display-3 {
-  text-align: center;
-  font-size: 30px;
-  color: black;
-  font-weight: 400;
-}
-
-.display-4 {
-  text-align: center;
-  font-size: 120px;
-  color: white;
-  font-weight: 800;
-  text-shadow: 2px 2px 2px black;
-
-}
-.container {
-  padding-top: 100px;
-}
-
-#img2 {
-  padding-top:100px;
-}
-
-/* NAVIGATION BAR */
-.fa-1x {
-font-size: 1.5rem;
-}
-.navbar-toggler.toggler-example {
-cursor: pointer;
-}
-
-/* JUMBOTRON */
-.jumbotron {
-  border-radius: 0rem;
-  background-image: url("../images/intro-img.jpg");
- background-size: cover;
-}
-
-/* MORE STORIES SECTION */
-.container-buttons {
-  padding: 60px;
-  width: 60%;
-  margin: auto;
-  padding-top: 1px;
-}
-.ch-grid {
-  margin: 40px 0 0 0;
-  padding: 0;
-  list-style: none;
-  display: block;
-  text-align: center;
+/*-------- CONTENT --------*/
+/* SCROLL INDICATOR */
+.progress-container {
   width: 100%;
+  height: 8px;
+  background: #ccc;
 }
 
-.ch-grid:after,
-.ch-item:before {
-  content: '';
-  display: table;
+.progress-bar {
+  height: 8px;
+  background: #FFFFB6;
+  width: 0%;
 }
 
-.ch-grid:after {
-  clear: both;
-}
-
-.ch-grid li {
-  width: 220px;
-  height: 220px;
-  display: inline-block;
-  margin: 20px;
-}
-
-.ch-item {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  overflow: hidden;
+/* HEADER */
+header {
   position: relative;
-  cursor: default;
-  box-shadow: inset 0 0 0 16px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.1);
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-}
-
-.ch-img-1 {
-  background-image: url("../images/dave-2.jpg");
-  background-repeat: repeat;
-  background-size: cover;
-  background-position: center;
-
-}
-
-.ch-img-2 {
-  background-image: url("https://glowvarietyshow.com/wp-content/uploads/2017/03/placeholder-image.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-
-}
-
-.ch-img-3 {
-  background-image: url("https://glowvarietyshow.com/wp-content/uploads/2017/03/placeholder-image.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-
-}
-
-.ch-info {
-  position: absolute;
-  background: gray;
-  width: inherit;
-  height: inherit;
-  border-radius: 50%;
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
   overflow: hidden;
-  opacity: 0;
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-  -webkit-transform: scale(0);
-  transform: scale(0);
+  margin-bottom: 50px;
 }
 
-.ch-info h3 {
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+  z-index: 1;
+  background: rgba(33, 49, 64, 0.7);
+}
+
+.header-content h1 {
+  font-size: 120px;
   color: #fff;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+}
+
+.header-content hr {
+  border: 1px solid #FFFFB6;
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* EMERGENCY MEDICAL SERVICES */
+.emergency-services-content {
+  margin-bottom: -300px;
+}
+
+.emergency-services-text {
+  text-align: left;
+  font-family: 'Lora';
+  padding-bottom: 160px;
+  padding-top: 60px;
   font-size: 22px;
-  margin: 0 30px;
-  padding: 80px 0 0 0;
-  height: 100px;
-  text-shadow: 0 0 1px #fff, 0 1px 2px rgba(0, 0, 0, 0.3);
+  margin: auto 0;
 }
 
-.ch-info p {
-  color: #fff;
-  display: -webkit-box;
+#question-mark {
+  float: right;
+  margin-right: 20px;
+  top: -400px;
+  z-index: -1;
+  position: relative;
+  display: inline-block;
+}
+
+.image {
+  width: 100%;
   display: flex;
-  -webkit-box-pack: center;
   justify-content: center;
-  padding: 8px 5px;
-  font-style: italic;
-  margin: -50px 30px;
-  font-size: 12px;
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
-  opacity: 0;
-  -webkit-transition: all 1s ease-in-out 0.4s;
-  transition: all 1s ease-in-out 0.4s;
-}
-.ch-info p img {
-  padding: 0 10px;
-}
-
-.ch-info p a {
-  display: block;
-  color: rgba(255, 255, 255, 0.7);
-  font-style: normal;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 9px;
-  letter-spacing: 1px;
-  padding-top: 4px;
-}
-
-.ch-info p a:hover {
-  color: rgba(255, 242, 34, 0.8);
+  align-items: center;
+  position: relative;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-wrap: wrap;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-align-content: center;
+  align-content: center;
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  min-height: calc(100vh - 56px);
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  position: relative;
+  overflow: hidden;
+  background-position: 50%;
+  border-radius: 0rem;
 }
 
-.ch-item:hover {
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 1px 2px rgba(0, 0, 0, 0.1);
+/* RICK CALEBS INTERVIEW */
+.calebs-interview {
+  background-color: #ffffff;
+  z-index: -1;
 }
 
-.ch-item:hover .ch-info {
-  -webkit-transform: scale(1);
-          transform: scale(1);
-  opacity: 1;
+.calebs-pq {
+  padding-bottom: 100px;
 }
 
-.ch-item:hover .ch-info p {
-  opacity: 1;
+/* MOBILE HEALTH CLINIC */
+.mobile-clinic-text {
+  text-align: center;
+  font-family: 'Lora';
+  padding-bottom: 160px;
+  padding-top: 60px;
+  font-size: 22px;
+  margin: auto 0;
+  position: relative;
 }
 
-
-/* FOOTER */
-.footer-dark {
-  padding:50px 0;
-  color: black;
-  background-color: gray;
+.photo360 {
+  margin: auto;
+  width: 70%;
+  padding: 10px;
 }
 
-.footer-dark h3 {
-  margin-top:0;
-  margin-bottom:12px;
-  font-weight:bold;
-  font-size:16px;
+/* DAVE INTERVIEW */
+.dave-interview {
+  background-color: #ffffff;
+  overflow: hidden;
 }
 
-.footer-dark ul {
-  padding:0;
-  list-style:none;
-  line-height:1.6;
-  font-size:14px;
-  margin-bottom:0;
+.dave-pq {
+  padding-bottom: 100px;
 }
 
-.footer-dark ul a {
-  color:inherit;
-  text-decoration:none;
-  opacity:0.6;
+/* 360 PHOTO */
+/* ECONOMIC ACCESS */
+.economic-access-text {
+  text-align: center;
+  font-family: 'Lora';
+  padding-bottom: 160px;
+  padding-top: 60px;
+  font-size: 22px;
+  margin: auto 0;
+  position: relative;
 }
 
-.footer-dark ul a:hover {
-  opacity:0.8;
+/* HAPCAP */
+.hapcap-text {
+  text-align: center;
+  font-family: 'Lora';
+  padding-bottom: 160px;
+  padding-top: 60px;
+  font-size: 22px;
+  margin: auto 0;
+  position: relative;
 }
 
+.jessie-pq {
+  background-color: #ffffff;
+  overflow: hidden;
+}
+}
+
+/*-------- MEDIA QUERIES --------*/
 @media (max-width:767px) {
-  .footer-dark .item:not(.social) {
-    text-align:center;
-    padding-bottom:20px;
+  .web-hed {
+    font-size: 70px;
+    line-height: 60px;
   }
-}
 
-.footer-dark .item.text {
-  margin-bottom:36px;
-}
-
-@media (max-width:767px) {
-  .footer-dark .item.text {
-    margin-bottom:0;
+  .intro-content {
+    font-size: 20px;
+    margin: 50px;
   }
-}
 
-.footer-dark .item.text p {
-  opacity:0.6;
-  margin-bottom:0;
-}
-
-.footer-dark .item.social {
-  text-align:center;
-}
-
-@media (max-width:991px) {
-  .footer-dark .item.social {
-    text-align:center;
-    margin-top:20px;
+  .call-video {
+    height: 500px;
   }
-}
-
-.footer-dark .item.social > a {
-  font-size:20px;
-  width:36px;
-  height:36px;
-  line-height:36px;
-  display:inline-block;
-  text-align:center;
-  border-radius:50%;
-  box-shadow:0 0 0 1px rgba(255,255,255,0.4);
-  margin:0 8px;
-  color:#fff;
-  opacity:0.75;
-}
-
-.footer-dark .item.social > a:hover {
-  opacity:0.9;
-}
-
-.footer-dark .copyright {
-  text-align:center;
-  padding-top: 40px;
-  opacity:0.3;
-  font-size:13px;
-  margin-bottom:0;
 }

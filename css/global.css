@@ -23,6 +23,7 @@ h1 {
   color: #FFFFB6;
   font-weight: bold;
   text-align: center;
+  padding-top: 100px;
 }
 
 .dropcap {
@@ -50,6 +51,7 @@ hr {
 
 .img-fluid {
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .scroll-indicator {
@@ -97,4 +99,12 @@ blockquote {
 
 .pullquote footer:before {
   content: '\2015';
+}
+
+/* AUDIO PLAYER */
+.audio-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
 }

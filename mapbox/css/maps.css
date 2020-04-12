@@ -1,0 +1,75 @@
+body {
+  background-color: transparent;
+}
+/* MAP */
+#embed {
+  font-family: 'Source Sans Pro', sans-serif;
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  background-color: #fbfbfb;
+  padding: 2.4rem;
+  display: block;
+  font-weight: 300;
+  border-radius: 5px;
+  border: 1px black solid;
+}
+
+.map-title {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.map-sum {
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-family: 'Lora'
+}
+
+#map-container {
+  position: relative;
+  max-width: 400px;
+  float: left;
+}
+
+#map {
+  height: 600px;
+  width: 800px;
+}
+
+.mapboxgl-popup {
+  max-width: 400px;
+  font: 12px/20px 'Source Sans Pro', Arial, Helvetica, sans-serif;
+}
+
+.mapboxgl-popup-content {
+  font-family: 'Source Sans Pro';
+  font-size: 18px;
+  padding: 20px 10px 15px !important;
+  text-align: center;
+}
+
+.source {
+  font-size: 10px;
+  margin-top: 5px;
+  width: 100%;
+  font-family: 'Source Sans Pro'
+}
+
+.markercall {
+  background-image: url('https://raw.githubusercontent.com/johnstont05/soul-of-athens-medical-access-2020/master/images/phone-icon.png');
+  background-size: cover;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.marker {
+  background-image: url('https://raw.githubusercontent.com/johnstont05/soul-of-athens-medical-access-2020/master/images/truck.png');
+  background-size: cover;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
