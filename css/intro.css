@@ -95,7 +95,7 @@
   }
 }
 
-/*VIDEO EMBED */
+/* VIMEO EMBED */
 .video {
   height: 100vh;
 }
@@ -104,6 +104,7 @@ video {
   width: 100%;
   height: auto;
 }
+
 .video-embed {
   display: block;
   margin-left: auto;
