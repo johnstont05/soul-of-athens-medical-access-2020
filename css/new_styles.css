@@ -259,6 +259,22 @@ blockquote {
     /* could also add a width: some%; to change the scale of the foreground image */
 }
 
+.house-bg {
+  height: 575px;
+  background-image: url(../images/HouseBackground.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: contain;
+  overflow-y: hidden;
+  margin-top: 80px;
+}
+
+.house-bg img {
+  min-height: 100%;
+
+}
+
 
 /* 360 PHOTO */
 /* ECONOMIC ACCESS */
