@@ -95,7 +95,7 @@
   }
 }
 
-/* VIMEO EMBED */
+/*VIDEO EMBED */
 .video {
   height: 100vh;
 }
@@ -137,7 +137,7 @@ video {
   text-align: center;
 }
 
-/* MEDIA QUERIES */
+/* -------- MEDIA QUERIES -------- */
 /* TABLET */
 @media screen and (max-width: 992px) {
   .intro-content {

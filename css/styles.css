@@ -1,17 +1,4 @@
 /*-------- CONTENT --------*/
-/* SCROLL INDICATOR */
-.progress-container {
-  width: 100%;
-  height: 8px;
-  background: #ccc;
-}
-
-.progress-bar {
-  height: 8px;
-  background: #FFFFB6;
-  width: 0%;
-}
-
 /* HEADER */
 header {
   position: relative;
@@ -19,7 +6,7 @@ header {
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 header video {
@@ -66,16 +53,7 @@ header .overlay {
 
 /* EMERGENCY MEDICAL SERVICES */
 .emergency-services-content {
-  margin-bottom: -300px;
-}
-
-.emergency-services-text {
-  text-align: left;
-  font-family: 'Lora';
-  padding-bottom: 160px;
-  padding-top: 60px;
-  font-size: 22px;
-  margin: auto 0;
+  margin-bottom: -400px;
 }
 
 #question-mark {
@@ -87,124 +65,74 @@ header .overlay {
   display: inline-block;
 }
 
-.image {
+video {
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  flex-wrap: wrap;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  align-items: center;
-  -webkit-align-content: center;
-  align-content: center;
-  display: -webkit-flex;
-  display: flex;
-  width: 100%;
-  min-height: calc(100vh - 56px);
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-  position: relative;
-  overflow: hidden;
-  background-position: 50%;
-  border-radius: 0rem;
+  height: auto;
 }
 
-/* RICK CALEBS INTERVIEW */
-.calebs-interview {
-  background-color: #ffffff;
-  z-index: -1;
+.video-embed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 auto;
 }
 
-.calebs-pq {
-  padding-bottom: 100px;
+.looped {
+  margin-top: 50px;
 }
 
 /* MOBILE HEALTH CLINIC */
-.mobile-clinic-text {
-  text-align: center;
-  font-family: 'Lora';
-  padding-bottom: 160px;
-  padding-top: 60px;
-  font-size: 22px;
-  margin: auto 0;
-  position: relative;
-}
-
 .photo360 {
   margin: auto;
   width: 70%;
   padding: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-/* DAVE INTERVIEW */
-.dave-interview {
-  background-color: #ffffff;
-  overflow: hidden;
+/* FOOTER */
+.footer {
+  background: #4882A3;
+  color: white;
+}
+.footer .links ul {
+  list-style-type: none;
+}
+.footer .links li a {
+  color: white;
+  -webkit-transition: color .2s;
+  transition: color .2s;
+}
+.footer .links li a:hover {
+  text-decoration: none;
+  color: #4180CB;
+}
+.footer .about-company i {
+  font-size: 25px;
+}
+.footer .about-company a {
+  color: white;
+  -webkit-transition: color .2s;
+  transition: color .2s;
+}
+.footer .about-company a:hover {
+  color: #4180CB;
+}
+.footer .location i {
+  font-size: 18px;
+}
+.footer .copyright p {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+
 }
 
-.dave-pq {
-  padding-bottom: 100px;
-}
-
-/* 360 PHOTO */
-/* ECONOMIC ACCESS */
-.economic-access-text {
-  text-align: center;
-  font-family: 'Lora';
-  padding-bottom: 160px;
-  padding-top: 60px;
-  font-size: 22px;
-  margin: auto 0;
-  position: relative;
-}
-
-/* HAPCAP */
-.hapcap-text {
-  text-align: center;
-  font-family: 'Lora';
-  padding-bottom: 160px;
-  padding-top: 60px;
-  font-size: 22px;
-  margin: auto 0;
-  position: relative;
-}
-
-.jessie-pq {
-  background-color: #ffffff;
-  overflow: hidden;
-}
-
-/* COVID-19 */
-.covid-19-text {
-  text-align: center;
-  font-family: 'Lora';
-  padding-bottom: 160px;
-  padding-top: 60px;
-  font-size: 22px;
-  margin: auto 0;
-  position: relative;
-}
-
-
-/*-------- MEDIA QUERIES --------*/
-@media (max-width:767px) {
-  .web-hed {
-    font-size: 70px;
-    line-height: 60px;
-  }
-
-  .intro-content {
-    font-size: 20px;
-    margin: 50px;
-  }
-
-  .call-video {
-    height: 500px;
+/* -------- MEDIA QUERIES -------- */
+/* TABLET */
+@media screen and (max-width: 992px) {
+  .photo360 {
+    width: 100%;
   }
 }
+
+/* MOBILE */
+@media screen and (max-width: 600px) {}
