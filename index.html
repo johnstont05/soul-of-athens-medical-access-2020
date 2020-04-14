@@ -26,7 +26,17 @@
   <script src="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.js"></script>
   <link href="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.css" rel="stylesheet" />
 
-  <!-- PARALLAX -->
+  <!-- GOOGLE ANALYTICS -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-62927028-6"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-62927028-6');
+  </script>
 
   <!-- CSS -->
   <link rel="stylesheet" href="css/styles.css" />
@@ -102,12 +112,12 @@
               of Athens County EMS, Rick
               Calebs, recounted the search for a victim of a logging accident in February 2020. While dispatch knew that the caller was located on Mountville Road, on the border of Athens and Morgan Counties, the precise location was difficult to
               find.
-            <blockquote class="pullquote" style="padding-top:50px">
-              The ambulance only knew the road and it is a particularly long road, the ambulance did not know which end to enter and had nothing to go on."
-              <footer> Rick Calebs, <i>the chief of Athens County Medical Services (ACMS)</i></footer>
-              <img src="images/question-mark_gray.png" width="50%" height="50%" id="question-mark">
-            </blockquote>
-          </p>
+              <blockquote class="pullquote" style="padding-top:50px">
+                The ambulance only knew the road and it is a particularly long road, the ambulance did not know which end to enter and had nothing to go on."
+                <footer> Rick Calebs, <i>the chief of Athens County Medical Services (ACMS)</i></footer>
+                <img src="images/question-mark_gray.png" width="50%" height="50%" id="question-mark">
+              </blockquote>
+            </p>
           </div>
         </div>
       </div>
@@ -474,7 +484,7 @@
               </figure>
             </div>
             <p class="text">“We see a lot of people who have health insurance, but their health insurance has such a high deductible that they can’t really use it,” Oliver said. “So, they’ll still come to the free clinic and they’ll still seek out
-            our services because they can’t access health care in a traditional setting.”
+              our services because they can’t access health care in a traditional setting.”
             </p>
           </div>
         </div>
@@ -702,7 +712,7 @@
             <li><a href="http://www.taylorfayjohnston.com" target="
               ">Taylor Johnston | Lead Developer</a></li>
             <li><a href="https://www.instagram.com/redthapanther/" target="_blank">Chris Turner II | Illustrator</a></li>
-            <li><a href="https://www.instagram.com/abby_harder/"target="
+            <li><a href="https://www.instagram.com/abby_harder/" target="
               ">Abby Harder | UX Designer</a></li>
             <li><a href="https://www.instagram.com/shelbymillerphotos/" target="_blank">Shelby Miller | Photographer</a></li>
           </ul>
@@ -727,15 +737,18 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
   <!-- SCROLL INDICATOR -->
-<script>
-window.onscroll = function() {myFunction()};
+  <script>
+    window.onscroll = function() {
+      myFunction()
+    };
 
-function myFunction() {
-  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-  var scrolled = (winScroll / height) * 100;
-  document.getElementById("myBar").style.width = scrolled + "%";
-}</script>
+    function myFunction() {
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 100;
+      document.getElementById("myBar").style.width = scrolled + "%";
+    }
+  </script>
   <!-- SCROLL INIDCATOR -->
 
   <!-- BACK TO TOP -->
@@ -763,6 +776,7 @@ function myFunction() {
     }
   </script> -->
   <!-- /BACK TO TOP -->
+
 
 </body>
 
