@@ -126,10 +126,10 @@ video {
 }
 
 /* INTRO */
-.intro-section {
+.spaced-section {
   height: 100vh;
 }
-.intro-content {
+.spaced-content {
   font-family: 'Lora';
   font-size: 16px;
   text-align: center;

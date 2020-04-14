@@ -72,6 +72,21 @@ header .overlay {
   display: inline-block;
 }
 
+.aligned-img {
+  float: right;
+  margin: 0px 0px 15px 15px;
+}
+
+#damaged-sign {
+  float: right;
+  margin-right: 80px;
+  left: 200px;
+  top: 0px;
+  z-index: -1;
+  position: relative;
+  display: inline-block;
+}
+
 video {
   width: 100%;
   height: auto;
@@ -102,16 +117,18 @@ video {
   background: #4882A3;
   color: white;
   font-family: 'Source Sans Pro'
-
 }
+
 .footer .links ul {
   list-style-type: none;
 }
+
 .footer .links li a {
   color: white;
   -webkit-transition: color .2s;
   transition: color .2s;
 }
+
 .footer .links li a:hover {
   text-decoration: none;
   color: #FFFFB6;
@@ -120,16 +137,49 @@ video {
 .footer .copyright p {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   font-family: 'Source Sans Pro'
-
 }
 
 /* -------- MEDIA QUERIES -------- */
+/* OTHER */
+@media screen and (max-width: 1200px) {
+  .aligned-img {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    width: 60%;
+  }
 /* TABLET */
 @media screen and (max-width: 992px) {
   .photo360 {
     width: 100%;
   }
+
+  .spaced-content {
+    padding: 5px;
+  }
+
+  .aligned-img {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    width: 60%;
+  }
 }
 
 /* MOBILE */
-@media screen and (max-width: 600px) {}
+@media screen and (max-width: 600px) {
+  .spaced-content {
+    padding: 30px;
+  }
+
+  .aligned-img {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

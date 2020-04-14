@@ -167,7 +167,7 @@ blockquote {
 .invert-pq {
   background-color: #ffffff;
   z-index: -1;
-  margin-top: 50px;
+  padding: 50px;
   margin-bottom: 50px;
 }
 
