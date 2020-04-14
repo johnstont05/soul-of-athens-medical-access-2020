@@ -152,7 +152,8 @@ video {
   }
 
   /* TABLET */
-  @media screen and (max-width: 992px) {
+  @media screen and (max-width: 1000px) {
+
     .photo360 {
       width: 100%;
     }
@@ -169,13 +170,16 @@ video {
       padding-top: 50px;
       width: 60%;
     }
+
+footer {
+      padding: 10px;
+      margin-bottom: 150px;
+    line-height: 2.5vh;
+    }
   }
 
   /* MOBILE */
-  @media screen and (max-width: 600px) { 
-    h1 {
-      font-size: 32px;
-    }
+  @media screen and (max-width: 600px) {
     .spaced-content {
       padding: 30px;
     }

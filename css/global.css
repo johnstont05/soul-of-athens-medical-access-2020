@@ -219,12 +219,16 @@ blockquote {
 
 /* -------- MEDIA QUERIES -------- */
 /* TABLET */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 100px) {
   h1 {
     font-size: 56px;
   }
 
   p {
+    padding: 5px;
+  }
+
+  .text {
     padding: 5px;
   }
 
@@ -248,7 +252,7 @@ blockquote {
   }
 
   .text {
-    padding: 30px;
+    padding: 20px;
   }
 
   figure {
