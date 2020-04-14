@@ -18,14 +18,14 @@ a {
 }
 
 p {
-  font-size: 18px;
+  font-size: 16px;
   color: #ffffff;
 }
 
 .text {
   text-align: left;
   font-family: 'Lora';
-  font-size: 22px;
+  font-size: 16px;
   margin: auto 0;
 }
 
@@ -57,15 +57,28 @@ hr {
 }
 
 /* IMAGES */
-figure {
-    display: flex;
-    flex-flow: column;
-    margin: auto;
-    padding-bottom: 50px;
+.items {
+  text-align: center;
+  margin: 50px auto;
+}
+
+.items figure {
+  margin: 0px 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+}
+
+figcaption {
+  opacity: 0.7;
+  font-family: 'Source Sans Pro';
+  text-align: left;
+  font-size: 12px;
+  font-style: italic;
+
 }
 
 .images {
-  width: 60%;
   height: auto;
   overflow: hidden;
   padding-top: 50px;
@@ -75,15 +88,7 @@ figure {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-}
-
-figcaption {
-  font-family: 'Source Sans Pro';
-  color: #fff;
-  text-align: center;
-  opacity: .7;
-  padding: 3px;
+  width: 70%;
 }
 
 /* VIDEO EMBED */
@@ -91,6 +96,7 @@ video {
   width: 100%;
   height: auto;
 }
+
 .video-player {
   display: block;
   margin-left: auto;
@@ -98,7 +104,7 @@ video {
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 50px;
- }
+}
 
 /* SCROLL INDICATOR */
 .progress-container {
@@ -134,8 +140,6 @@ blockquote {
   margin: auto 0;
   font-size: 32px;
   line-height: 1.5em;
-  padding-bottom: 100px;
-  padding-top: 100px;
 }
 
 .pullquote:before {
@@ -150,7 +154,7 @@ blockquote {
 
 .pullquote footer {
   font-family: 'Lora';
-  font-size: 0.6em;
+  font-size: 0.5em;
   font-weight: normal;
   color: #ffffff;
   float: right;
@@ -163,6 +167,7 @@ blockquote {
 .invert-pq {
   background-color: #ffffff;
   z-index: -1;
+  margin-top: 50px;
   margin-bottom: 50px;
 }
 
@@ -177,8 +182,9 @@ blockquote {
 
 /* MAP */
 .map {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  height: 75vh;
 }
 
 /* -------- MEDIA QUERIES -------- */
@@ -187,11 +193,21 @@ blockquote {
   h1 {
     font-size: 56px;
   }
-  .text {
-    padding: 10px;
+
+  p {
+    padding: 5px;
   }
+
   .images {
     width: 100%;
+  }
+
+  .center {
+    width: 100%;
+  }
+
+  #embed {
+    width: 700px;
   }
 }
 
@@ -200,13 +216,20 @@ blockquote {
   h1 {
     font-size: 32px;
   }
+
   .text {
     padding: 30px;
   }
+
   figure {
     padding-bottom: 0px;
   }
+
   .images {
+    width: 100%;
+  }
+
+  .center {
     width: 100%;
   }
 }

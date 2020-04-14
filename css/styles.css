@@ -51,6 +51,13 @@ header .overlay {
   margin: 0 auto;
 }
 
+.subhed {
+  font-family: 'Lora';
+  color: #fff;
+  font-size: 16px;
+  padding-top: 25px;
+}
+
 /* EMERGENCY MEDICAL SERVICES */
 .emergency-services-content {
   margin-bottom: -400px;
@@ -94,6 +101,8 @@ video {
 .footer {
   background: #4882A3;
   color: white;
+  font-family: 'Source Sans Pro'
+
 }
 .footer .links ul {
   list-style-type: none;
@@ -105,24 +114,12 @@ video {
 }
 .footer .links li a:hover {
   text-decoration: none;
-  color: #4180CB;
+  color: #FFFFB6;
 }
-.footer .about-company i {
-  font-size: 25px;
-}
-.footer .about-company a {
-  color: white;
-  -webkit-transition: color .2s;
-  transition: color .2s;
-}
-.footer .about-company a:hover {
-  color: #4180CB;
-}
-.footer .location i {
-  font-size: 18px;
-}
+
 .footer .copyright p {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
+  font-family: 'Source Sans Pro'
 
 }
 
