@@ -136,26 +136,27 @@ video {
 }
 
 /* SCROLL INDICATOR */
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+/* The progress container (grey background) */
 .progress-container {
   width: 100%;
   height: 8px;
   background: #ccc;
 }
 
-.scroll-indicator {
-  position: fixed;
-  top: 0;
-  z-index: 1;
-  width: 100%;
-  background-color: #f1f1f1;
-}
-
+/* The progress bar (scroll indicator) */
 .progress-bar {
   height: 8px;
   background: #4882A3;
   width: 0%;
 }
-
 /* PULL QUOTE */
 blockquote {
   padding: 0;
@@ -212,7 +213,7 @@ blockquote {
 /* MAP */
 .map {
   margin-top: 50px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   height: 75vh;
 }
 

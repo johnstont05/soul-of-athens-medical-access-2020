@@ -22,9 +22,6 @@
   <!-- BOOTSTRAP -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-  <!-- BOUNCY SCROLL -->
-  <link href="css/animated-scroll-anchor.css" rel="stylesheet">
-
   <!-- MAPBOX -->
   <script src="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.js"></script>
   <link href="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.css" rel="stylesheet" />
@@ -41,17 +38,18 @@
 
 <body>
 
-  <!-- SCROLL INDICATOR -->
-  <section class="scroll-indicator">
-    <div class="progress-container">
-      <div class="progress-bar" id="myBar"></div>
-    </div>
-  </section>
-  <!-- /SCROLL INDICATOR -->
-
   <!-- BACK TO TOP -->
   <button onclick="topFunction()" class="btn btn-outline-light" id="myBtn" title="Go to top"><i class="fa fa-angle-up"></i></button>
   <!-- /BACK TO TOP -->
+
+  <!-- SCROLL INDICATOR -->
+  <div class="header">
+    <div class="progress-container">
+      <div class="progress-bar" id="myBar"></div>
+    </div>
+  </div>
+  <!-- /SCROLL INDICATOR -->
+
 
 
   <!-- HEADER -->
@@ -697,13 +695,14 @@
         <div class="col-lg-4 col-xs-12 links">
           <h4 class="mt-lg-0 mt-sm-3"><b>MEMBERS</b></h4>
           <ul class="m-0 p-0">
-            <li><a href="www.meganbomar.com" target="_blank">Megan Bomar | Project Manager</a></li>
-            <li><a href="www.meagandeanne.com" target="_blank">Meagan Deanne | Lead Photographer</a></li>
-            <li><a href="www.taylorfayjohnston.com" target="
+            <li><a href="http://www.meganbomar.com" target="_blank">Megan Bomar | Project Manager</a></li>
+            <li><a href="http://www.meagandeanne.com" target="_blank">Meagan Deanne | Lead Photographer</a></li>
+            <li><a href="http://www.taylorfayjohnston.com" target="
               ">Taylor Johnston | Lead Developer</a></li>
-            <li><a href="#">Chris Turner II | Illustrator</a></li>
-            <li><a href="#">Abby Harder | UX Designer</a></li>
-            <li><a href="#">Shelby Miller | Photographer</a></li>
+            <li><a href="https://www.instagram.com/redthapanther/" target="_blank">Chris Turner II | Illustrator</a></li>
+            <li><a href="https://www.instagram.com/abby_harder/"target="
+              ">Abby Harder | UX Designer</a></li>
+            <li><a href="https://www.instagram.com/shelbymillerphotos/" target="_blank">Shelby Miller | Photographer</a></li>
           </ul>
         </div>
       </div>
@@ -726,23 +725,19 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
   <!-- SCROLL INDICATOR -->
-  <script>
-    // When the user scrolls the page, execute myFunction
-    window.onscroll = function() {
-      myFunction()
-    };
+<script>
+window.onscroll = function() {myFunction()};
 
-    function myFunction() {
-      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-      var scrolled = (winScroll / height) * 100;
-      document.getElementById("myBar").style.width = scrolled + "%";
-    }
-  </script>
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}</script>
   <!-- SCROLL INIDCATOR -->
 
   <!-- BACK TO TOP -->
-  <script>
+  <!-- <script>
     //Get the button
     var mybutton = document.getElementById("myBtn");
 
@@ -764,7 +759,7 @@
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
     }
-  </script>
+  </script> -->
   <!-- /BACK TO TOP -->
 
 </body>
