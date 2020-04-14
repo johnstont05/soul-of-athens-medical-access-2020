@@ -180,6 +180,10 @@ footer {
 
   /* MOBILE */
   @media screen and (max-width: 600px) {
+
+    h1 {
+      font-size: 22px;
+    }
     .spaced-content {
       padding: 30px;
     }
