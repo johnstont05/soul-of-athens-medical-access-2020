@@ -172,7 +172,10 @@ video {
   }
 
   /* MOBILE */
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 600px) { 
+    h1 {
+      font-size: 32px;
+    }
     .spaced-content {
       padding: 30px;
     }

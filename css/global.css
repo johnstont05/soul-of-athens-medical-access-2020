@@ -213,7 +213,7 @@ blockquote {
 /* MAP */
 .map {
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
   height: 75vh;
 }
 
@@ -242,9 +242,9 @@ blockquote {
 }
 
 /* MOBILE */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 736px) {
   h1 {
-    font-size: 32px;
+    font-size: 36px;
   }
 
   .text {
