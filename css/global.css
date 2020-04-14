@@ -81,7 +81,6 @@ figcaption {
 .images {
   height: auto;
   overflow: hidden;
-  padding-top: 50px;
 }
 
 .center {
@@ -140,6 +139,7 @@ blockquote {
   margin: auto 0;
   font-size: 32px;
   line-height: 1.5em;
+  padding-bottom: 20px;
 }
 
 .pullquote:before {
@@ -167,7 +167,7 @@ blockquote {
 .invert-pq {
   background-color: #ffffff;
   z-index: -1;
-  padding: 50px;
+  margin-top: 50px;
   margin-bottom: 50px;
 }
 
@@ -177,7 +177,7 @@ blockquote {
   justify-content: center;
   align-items: center;
   padding-top: 50px;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 }
 
 /* MAP */

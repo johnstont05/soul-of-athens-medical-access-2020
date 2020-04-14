@@ -103,13 +103,15 @@ video {
   margin-top: 50px;
 }
 
-/* MOBILE HEALTH CLINIC */
+/* PROVIDING HEALTH CARE */
+.padding {
+  padding-top: 200px;
+}
 .photo360 {
   margin: auto;
   width: 70%;
   padding: 10px;
   padding-top: 50px;
-  padding-bottom: 50px;
 }
 
 /* FOOTER */
