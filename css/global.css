@@ -12,6 +12,10 @@ body {
   padding-bottom: -20px;
 }
 
+.padding {
+  padding-top: 200px;
+}
+
 /* TEXT */
 a {
   color: inherit;
@@ -56,6 +60,22 @@ hr {
   margin-bottom: 50px;
 }
 
+/* BACK TO TOP */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: 'Source Sans Pro';
+}
+
+#myBtn:hover {
+  background-color: #fff;
+}
+
 /* IMAGES */
 .items {
   text-align: center;
@@ -88,6 +108,16 @@ figcaption {
   margin-left: auto;
   margin-right: auto;
   width: 70%;
+}
+
+.carousel-caption {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+}
+
+.photo-carousel {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 /* VIDEO EMBED */
@@ -167,7 +197,6 @@ blockquote {
 .invert-pq {
   background-color: #ffffff;
   z-index: -1;
-  margin-top: 50px;
   margin-bottom: 50px;
 }
 

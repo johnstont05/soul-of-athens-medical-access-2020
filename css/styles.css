@@ -104,13 +104,11 @@ video {
 }
 
 /* PROVIDING HEALTH CARE */
-.padding {
-  padding-top: 200px;
-}
 .photo360 {
   margin: auto;
   width: 70%;
   padding: 10px;
+  padding-bottom:50px;
   padding-top: 50px;
 }
 
