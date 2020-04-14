@@ -108,7 +108,7 @@ video {
   margin: auto;
   width: 70%;
   padding: 10px;
-  padding-bottom:50px;
+  padding-bottom: 50px;
   padding-top: 50px;
 }
 
@@ -150,36 +150,54 @@ video {
     padding-top: 50px;
     width: 60%;
   }
-/* TABLET */
-@media screen and (max-width: 992px) {
-  .photo360 {
-    width: 100%;
+
+  /* TABLET */
+  @media screen and (max-width: 992px) {
+    .photo360 {
+      width: 100%;
+    }
+
+    .spaced-content {
+      padding: 5px;
+    }
+
+    .aligned-img {
+      float: none;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 50px;
+      width: 60%;
+    }
   }
 
-  .spaced-content {
-    padding: 5px;
-  }
+  /* MOBILE */
+  @media screen and (max-width: 600px) {
+    .spaced-content {
+      padding: 30px;
+    }
 
-  .aligned-img {
-    float: none;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 50px;
-    width: 60%;
-  }
-}
+    .aligned-img {
+      float: none;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
 
-/* MOBILE */
-@media screen and (max-width: 600px) {
-  .spaced-content {
-    padding: 30px;
-  }
+    .pullquote {
+      padding: 50px;
+    }
 
-  .aligned-img {
-    float: none;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    #question-mark {
+      float: none;
+      width: 70%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    footer {
+      padding-bottom: 100px;
+      line-height: 1.5em;
+    }
   }
-}
