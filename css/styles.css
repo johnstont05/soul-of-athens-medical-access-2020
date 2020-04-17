@@ -1,3 +1,7 @@
+body {
+  background-color: #213140;
+}
+
 /*-------- CONTENT --------*/
 /* HEADER */
 header {
@@ -54,7 +58,7 @@ header .overlay {
 .subhed {
   font-family: 'Lora';
   color: #fff;
-  font-size: 16px;
+  font-size: 18px;
   padding-top: 25px;
 }
 

@@ -1,3 +1,7 @@
+body {
+   background-color: #2A3F52;
+}
+
 /* HEADPHONES */
 .headphones {
   height: 100vh;
@@ -6,7 +10,7 @@
   color: #353535;
   font-family: "Georgia";
   font-weight: 800;
-  font-size: 16px;
+  font-size: 18px;
   left: 50%;
   top: 50%;
   position: absolute;
@@ -24,6 +28,8 @@
   margin: 50px;
   bottom: 0px;
   right: 0px;
+  font-family: 'Lora';
+  font-size: 18px;
 }
 
 /* FADE IN */
@@ -137,6 +143,7 @@ video {
 
 .continue-button {
   text-align: center;
+  font-size: 18px;
 }
 
 /* -------- MEDIA QUERIES -------- */
