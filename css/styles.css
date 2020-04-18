@@ -1,8 +1,11 @@
 body {
-  background-color: #213140;
+   background-color: #121D27;
 }
-
 /*-------- CONTENT --------*/
+
+/* VERTICAL NAVIGATION */
+
+
 /* HEADER */
 header {
   position: relative;
@@ -45,13 +48,15 @@ header .overlay {
 }
 
 .header-content h1 {
-  font-size: 120px;
+  font-size: 122px;
   color: #fff;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .header-content hr {
   border: 1px solid #FFFFB6;
-  width: 50%;
+  width: 65%;
+  text-align: center;
   margin: 0 auto;
 }
 
@@ -60,6 +65,7 @@ header .overlay {
   color: #fff;
   font-size: 18px;
   padding-top: 25px;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 /* EMERGENCY MEDICAL SERVICES */

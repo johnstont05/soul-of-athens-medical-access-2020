@@ -8,7 +8,7 @@ body {
   width: 100%;
   max-height: 80%;
   margin: 0 auto;
-  background-color: #fbfbfb;
+  background-color: #dedede;
   padding: 2.4rem;
   display: block;
   font-weight: 300;
@@ -17,12 +17,12 @@ body {
 }
 
 .map-title {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 800;
 }
 
 .map-sum {
-  font-size: 16px;
+  font-size: 18px;
   margin-bottom: 20px;
   font-family: 'Lora'
 }

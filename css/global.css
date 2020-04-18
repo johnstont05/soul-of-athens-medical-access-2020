@@ -12,6 +12,10 @@ html {
   padding-top: 200px;
 }
 
+.padding-bottom {
+  padding-bottom: 200px;
+}
+
 /* TEXT */
 a {
   color: inherit;
@@ -37,11 +41,12 @@ p {
 
 h1 {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 72px;
+  font-size: 56px;
   color: #FFFFB6;
   font-weight: bold;
   text-align: center;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .dropcap {
@@ -53,13 +58,6 @@ h1 {
   font-size: 5em;
   line-height: .9em;
   padding-right: 5px;
-}
-
-hr {
-  border: 1px solid #ffffff;
-  width: 50%;
-  margin: 0 auto;
-  margin-bottom: 50px;
 }
 
 /* BACK TO TOP */
@@ -112,6 +110,26 @@ figcaption {
   width: 70%;
 }
 
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.fade-in-element {
+  animation: fade-in 1.2s;
+}
+
+.hidden {
+  opacity: 0;
+}
+
 .carousel-caption {
   font-family: 'Source Sans Pro';
   font-style: italic;
@@ -159,6 +177,7 @@ video {
   background: #4882A3;
   width: 0%;
 }
+
 /* PULL QUOTE */
 blockquote {
   padding: 0;
@@ -198,7 +217,7 @@ blockquote {
 }
 
 .invert-pq {
-  background-color: #ffffff;
+  background-color: #dedede;
   z-index: -1;
   margin-bottom: 50px;
 }
