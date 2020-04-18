@@ -18,7 +18,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
   <link rel="manifest" href="site.webmanifest">
-  <link rel='icon' href='favicon.ico' type='image/x-icon'/>
+  <link rel='icon' href='favicon.ico' type='image/x-icon' />
 
   <!-- FADEIN -->
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -196,7 +196,7 @@
             callers. While county engineers work to update signage in the area, signs are often knocked down by snow plows, may be vandalized or disappear for unknown reasons.
             <div class="items">
               <figure>
-                <img class="center images" src="images/damaged-sign.png" alt="Illustration of damaged stop sign">
+                <img class="center images hidden fade-in-element" src="images/damaged-sign.png" alt="Illustration of damaged stop sign">
               </figure>
             </div>
           </p>
@@ -257,7 +257,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12 mx-auto">
-          <div id="carouselExampleIndicators" class="carousel slide" >
+          <div id="carouselExampleIndicators" class="carousel slide">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -305,7 +305,7 @@
   </section>
   <!-- /PHOTO CAROUSEL -->
 
-<!-- EMERGENCY MEDICAL SERVICES CONTINUED -->
+  <!-- EMERGENCY MEDICAL SERVICES CONTINUED -->
   <section class="emergency-services">
     <div class="container">
       <div class="row">
@@ -329,7 +329,7 @@
       <div class="row">
         <div class="items">
           <figure>
-            <img class="center images" src="images/truck-graphic.png" alt="Illustration of mobile clinic">
+            <img class="center images hidden fade-in-element" src="images/truck-graphic.png" alt="Illustration of mobile clinic">
           </figure>
         </div>
         <div class="providing-care-content">
@@ -473,7 +473,7 @@
             </p>
             <div class="items">
               <figure>
-                <img class="center images" src="images/gas-card.png" alt="Illustration of hands exchanging gas card">
+                <img class="center images hidden fade-in-element" src="images/gas-card.png" alt="Illustration of hands exchanging gas card">
               </figure>
             </div>
             <p class="text">“We see a lot of people who have health insurance, but their health insurance has such a high deductible that they can’t really use it,” Oliver said. “So, they’ll still come to the free clinic and they’ll still seek out
@@ -532,7 +532,7 @@
     </div>
     <div class="items">
       <figure>
-        <img class="center images" src="images/calendar.png" alt="Illustration of calendar">
+        <img class="center images hidden fade-in-element" src="images/calendar.png" alt="Illustration of calendar">
       </figure>
     </div>
   </section>
@@ -752,40 +752,37 @@
   </script>
   <!-- /BACK TO TOP -->
 
-  <!-- VERTICAL NAVIGATION -->
+  <!-- FADE -->
+  <script>
+    (function() {
+      var elements;
+      var windowHeight;
 
-  <!-- VERTICAL NAVIGATION -->
-
-<!-- FADE -->
-<script>
-(function() {
-  var elements;
-  var windowHeight;
-
-  function init() {
-    elements = document.querySelectorAll('.hidden');
-    windowHeight = window.innerHeight;
-  }
-
-  function checkPosition() {
-    for (var i = 0; i < elements.length; i++) {
-      var element = elements[i];
-      var positionFromTop = elements[i].getBoundingClientRect().top;
-
-      if (positionFromTop - windowHeight <= 0) {
-        element.classList.add('fade-in-element');
-        element.classList.remove('hidden');
+      function init() {
+        elements = document.querySelectorAll('.hidden');
+        windowHeight = window.innerHeight;
       }
-    }
-  }
 
-  window.addEventListener('scroll', checkPosition);
-  window.addEventListener('resize', init);
+      function checkPosition() {
+        for (var i = 0; i < elements.length; i++) {
+          var element = elements[i];
+          var positionFromTop = elements[i].getBoundingClientRect().top;
 
-  init();
-  checkPosition();
-})();</script>
-<!-- /FADE -->
+          if (positionFromTop - windowHeight <= 0) {
+            element.classList.add('fade-in-element');
+            element.classList.remove('hidden');
+          }
+        }
+      }
+
+      window.addEventListener('scroll', checkPosition);
+      window.addEventListener('resize', init);
+
+      init();
+      checkPosition();
+    })();
+  </script>
+  <!-- /FADE -->
 
 </body>
 
