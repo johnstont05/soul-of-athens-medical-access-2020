@@ -57,30 +57,37 @@
 
 <body>
 
+  <!-- BACK TO INTRO -->
+  <div class="back-button">
+    <a href="intro.html"><i class="fa fa-angle-left bounce"></i></a>
+  </div>
+  <!-- /BACK TO INTRO -->
+
   <!-- BACK TO TOP -->
-  <button onclick="topFunction()" class="btn btn-outline-light" id="myBtn" title="Go to top"><i class="fa fa-angle-up"></i></button>
+  <button onclick="topFunction()" class="btn btn-outline-light" id="myBtn" title="Go to top"><i class="fa fa-angle-up bounce"></i></button>
   <!-- /BACK TO TOP -->
 
-  <!-- SCROLL INDICATOR -->
-  <!-- <div class="header">
-    <div class="progress-container">
-      <div class="progress-bar" id="myBar"></div>
-    </div>
-  </div> -->
-  <!-- /SCROLL INDICATOR -->
-
   <!-- VERTICAL NAVIGATION -->
+  <navigation>
+    <div class="vl"></div>
+    <ul class="nav__dot">
+     <li class="current" data-toggle="tooltip" title="Home"  data-placement="left" data-nav-href="#section01"></li>
+     <li data-toggle="tooltip" title="TEXT"  data-placement="left" data-nav-href="#section02"></li>
+     <li data-toggle="tooltip" title="TEXT"  data-placement="left" data-nav-href="#section03"></li>
+     <li data-toggle="tooltip" title="TEXT"  data-placement="left" data-nav-href="#section04"></li>
+     <li data-toggle="tooltip" title="TEXT"  data-placement="left" data-nav-href="#section05"></li>
+     <li data-toggle="tooltip" title="TEXT"  data-placement="left" data-nav-href="#section06"></li>
+    </ul>
+  </navigation>
   <!-- /VERTICAL NAVIGATION -->
 
-
-
   <!-- HEADER -->
-  <header>
+  <header id="section01" data-nav="data-nav">
     <div class="overlay"></div>
     <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
       <source src="videos/intro.mp4" type="video/mp4" alt="drone footage of Coolville">
     </video>
-    <div class="container h-100">
+    <div class="container h-100" id="home">
       <div class="d-flex h-100 text-center align-items-center">
         <div class="w-100">
           <div class="header-content">
@@ -113,17 +120,17 @@
   <!-- /INTRO -->
 
   <!-- EMERGENCY SERVICES -->
-  <section class="emergency-services">
+  <section class="emergency-services" id="section02" data-nav="data-nav">
     <div class="container">
       <div class="row">
         <div class="emergency-services-content">
           <h1>RESPONDING TO EMERGENCIES <br> IN RURAL AREAS</h1>
           <div class="col-md-8 mx-auto">
-            <p class="text"><span class="dropcap">L</span>ocating homes and finding their way to the scenes of accidents are just some of the difficulties The Athens County Emergency Medical Services (EMS) Station often faces on a daily basis. Chief
+            <p class="text">Locating homes and finding their way to the scenes of accidents are just some of the difficulties The Athens County Emergency Medical Services (EMS) Station often faces on a daily basis. Chief
               of Athens County EMS, Rick
               Calebs, recounted the search for a victim of a logging accident in February 2020. While dispatch knew that the caller was located on Mountville Road, on the border of Athens and Morgan Counties, the precise location was difficult to
               find.
-              <blockquote class="pullquote" style="padding-top:100px; padding-bottom: 200px;">
+              <blockquote class="pullquote" style="padding-top:100px;">
                 The ambulance only knew the road and it is a particularly long road, the ambulance did not know which end to enter and had nothing to go on."
                 <footer> Rick Calebs, <i>the chief of Athens County Medical Services (ACMS)</i></footer>
                 <img src="images/question-mark.png" width="50%" height="50%" id="question-mark">
@@ -196,7 +203,7 @@
             callers. While county engineers work to update signage in the area, signs are often knocked down by snow plows, may be vandalized or disappear for unknown reasons.
             <div class="items">
               <figure>
-                <img class="center images hidden fade-in-element" src="images/damaged-sign.png" alt="Illustration of damaged stop sign">
+                <img class="center images hidden" src="images/damaged-sign.png" alt="Illustration of damaged stop sign">
               </figure>
             </div>
           </p>
@@ -324,18 +331,18 @@
   <!-- /EMERGENCY MEDICAL SERVICES -->
 
   <!-- PROVIDING HEALTH CARE -->
-  <section class="providing-care padding">
+  <section class="providing-care padding" id="section03" data-nav="data-nav">
     <div class="container">
       <div class="row">
         <div class="items">
           <figure>
-            <img class="center images hidden fade-in-element" src="images/truck-graphic.png" alt="Illustration of mobile clinic">
+            <img class="center images hidden" src="images/truck-graphic.png" alt="Illustration of mobile clinic">
           </figure>
         </div>
         <div class="providing-care-content">
           <h1>PROVIDING HEALTH CARE <br> OFF THE BEATEN PATH</h1>
           <div class="col-md-8 mx-auto">
-            <p class="text"><span class="dropcap">O</span>nce a month, David Pannell and his wife wake up at their home in Marietta, load up their car for the day trip, and make the half an hour drive along the Ohio River to Coolville. This is the
+            <p class="text">Once a month, David Pannell and his wife wake up at their home in Marietta, load up their car for the day trip, and make the half an hour drive along the Ohio River to Coolville. This is the
               closest mobile health unit location, and without it, the Pannells would have to drive an hour to Athens for a 20-minute health checkup.
             </p>
           </div>
@@ -460,20 +467,20 @@
   <!-- /PROVIDING CARE CONTINUED -->
 
   <!-- ECONOMIC ACCESS -->
-  <section class="economic-access padding">
+  <section class="economic-access padding" id="section04" data-nav="data-nav">
     <div class="container">
       <div class="row">
         <div class="economic-access-content">
           <h1>ECONOMIC ACCESS</h1>
           <div class="col-md-8 mx-auto">
-            <p class="text"><span class="dropcap">W</span>hile community leaders are working hard to ensure access to care for everyone, innovative programs like the mobile health units cannot address every need. “Sometimes we could take that medical
+            <p class="text">While community leaders are working hard to ensure access to care for everyone, innovative programs like the mobile health units cannot address every need. “Sometimes we could take that medical
               health unit within maybe two miles of your house, [but] if you don’t have a vehicle to get to us, sometimes we’re still not totally meeting that transportation gap,” Oliver described.
               <br><br>
               In order to meet that gap, Oliver finds herself and her colleagues at the Community Health Program using grants or community donations to give people gas cards in order to help people travel to their health clinics.
             </p>
             <div class="items">
               <figure>
-                <img class="center images hidden fade-in-element" src="images/gas-card.png" alt="Illustration of hands exchanging gas card">
+                <img class="center images hidden" src="images/gas-card.png" alt="Illustration of hands exchanging gas card">
               </figure>
             </div>
             <p class="text">“We see a lot of people who have health insurance, but their health insurance has such a high deductible that they can’t really use it,” Oliver said. “So, they’ll still come to the free clinic and they’ll still seek out
@@ -506,13 +513,13 @@
   <!-- /ECONOMIC ACCESS -->
 
   <!-- COMMUNITIES CREATING RESOURCES -->
-  <section class="resources padding">
+  <section class="resources padding" id="section05" data-nav="data-nav">
     <div class="container">
       <div class="row">
         <div class="resources-content">
           <h1>COMMUNITIES CREATING <br> RESOURCES</h1>
           <div class="col-md-8 mx-auto">
-            <p class="text"><span class="dropcap">I</span>n non-emergency cases, Athens County residents have access to a cheaper mode of transportation through the Hocking Athens Perry Community Action (HAPCAP). HAPCAP has been working to improve
+            <p class="text">In non-emergency cases, Athens County residents have access to a cheaper mode of transportation through the Hocking Athens Perry Community Action (HAPCAP). HAPCAP has been working to improve
               the community’s quality of life in the Tri-County area since the early 1960’s.
               <br><br>
               One of the five divisions of the nonprofit’s focus is transportation. In HAPCAP’s transit office, Athens and Hocking County mobility manager, Jessie Schmitzer, plays a key role in managing the services that HAPCAP offers.
@@ -532,7 +539,7 @@
     </div>
     <div class="items">
       <figure>
-        <img class="center images hidden fade-in-element" src="images/calendar.png" alt="Illustration of calendar">
+        <img class="center images hidden" src="images/calendar.png" alt="Illustration of calendar">
       </figure>
     </div>
   </section>
@@ -583,13 +590,13 @@
   <!-- /HAPCAP CONTINUED -->
 
   <!-- COVID-19 -->
-  <section class="covid-19 padding">
+  <section class="covid-19 padding" id="section06" data-nav="data-nav">
     <div class="container">
       <div class="row">
         <div class="covid-19-content">
           <h1>COMMUNITY AND COVID-19</h1>
           <div class="col-md-8 mx-auto">
-            <p class="text"><span class="dropcap">I</span>
+            <p class="text">I
               n the past month, some people have raised concern about the availability of coronavirus tests to Southeast Ohio due to the lack of healthcare access in the area.
               <br><br>
               In response to these concerns, Ohio House Rep, Jay Edwards., has stated that the area is not running low on test kits. Edwards says that Southeast Ohio is “on par per capita with other areas of the state.”
@@ -599,7 +606,7 @@
     </div>
     <div class="items">
       <figure>
-        <img class="center images hidden fade-in-element" src="images/coronavirus.png" alt="Illustration of coronavirus">
+        <img class="center images hidden" src="images/coronavirus.png" alt="Illustration of coronavirus">
       </figure>
     </div>
     <div class="container">
@@ -637,7 +644,7 @@
     </div>
     <div class="items">
       <figure>
-        <img class="center hidden fade-in-element" src="images/paula.png" alt="Illustration of Paula on FaceTime">
+        <img class="center hidden" src="images/paula.png" alt="Illustration of Paula on FaceTime">
       </figure>
     </div>
     <div class="container">
@@ -665,7 +672,7 @@
     </div>
     <div class="items">
       <figure>
-        <img class="center images hidden fade-in-element" src="images/closing-road.png" alt="Illustration of closing road">
+        <img class="center images hidden slidein" src="images/closing-road.png" alt="Illustration of closing road">
       </figure>
     </div>
   </section>
@@ -726,6 +733,52 @@
   </script>
   <!-- SCROLL INIDCATOR -->
 
+  <!-- VERTICAL SCROLL -->
+  <script>
+  $(function(){
+  $(window).on("load",function(pager){
+    var eventElemArray = [];
+    var _count = 0;
+    var _countFix = 0;
+    $(window).on('load scroll resize',function(){
+      eventElemArray = [];
+      _count = 0;
+      $('[data-nav]').each(function(i,pager){
+        eventElemArray.push( $(pager).offset().top );
+      });
+      for(var _i = 0;_i < eventElemArray.length; _i++){
+        if( $(window).scrollTop() + ($(window).height() * 0.5) > eventElemArray[_i] ){
+          _count++;
+        }
+      }
+      if(_count !== _countFix){
+        _countFix = _count;
+        $('.nav__dot li').removeClass('current');
+        $('.nav__dot li').eq(_count-1).addClass('current');
+      }
+    });
+
+    $('.nav__dot li').on('click', function() {
+      var speed = 200;
+      var href = $(this).attr('data-nav-href');
+      var offset = $(this).attr('data-nav-offset')|0;
+      var target = $(href == '' ? 'html' : href);
+      var position = target.offset().top + offset
+      $('body,html').animate({scrollTop:position}, speed);
+      return false;
+    });
+  });
+  });</script>
+  <!-- /VERTICAL SCROLL -->
+
+  <!-- TOOLTIP -->
+  <script>
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();
+});
+</script>
+  <!-- /TOOLTIP -->
+
   <!-- BACK TO TOP -->
   <script>
     //Get the button
@@ -754,33 +807,33 @@
 
   <!-- FADE -->
   <script>
-    (function() {
-      var elements;
-      var windowHeight;
+  (function() {
+  var elements;
+  var windowHeight;
 
-      function init() {
-        elements = document.querySelectorAll('.hidden');
-        windowHeight = window.innerHeight;
+  function init() {
+    elements = document.querySelectorAll('.hidden');
+    windowHeight = window.innerHeight;
+  }
+
+  function checkPosition() {
+    for (var i = 0; i < elements.length; i++) {
+      var element = elements[i];
+      var positionFromTop = elements[i].getBoundingClientRect().top;
+
+      if (positionFromTop - windowHeight <= 0) {
+        element.classList.add('fade-in');
+        element.classList.remove('hidden');
       }
+    }
+  }
 
-      function checkPosition() {
-        for (var i = 0; i < elements.length; i++) {
-          var element = elements[i];
-          var positionFromTop = elements[i].getBoundingClientRect().top;
+  window.addEventListener('scroll', checkPosition);
+  window.addEventListener('resize', init);
 
-          if (positionFromTop - windowHeight <= 0) {
-            element.classList.add('fade-in-element');
-            element.classList.remove('hidden');
-          }
-        }
-      }
-
-      window.addEventListener('scroll', checkPosition);
-      window.addEventListener('resize', init);
-
-      init();
-      checkPosition();
-    })();
+  init();
+  checkPosition();
+})();
   </script>
   <!-- /FADE -->
 
