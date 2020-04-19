@@ -20,7 +20,7 @@ var geojson = {
               "city": "Racine",
               "state": "Ohio",
               "zip": 45771,
-              "Full Address": "602 Elm Street Racine Ohio 45771 "
+              "fulladdress": "602 Elm Street, Racine, Ohio 45771 "
             }
           },
           {
@@ -35,7 +35,7 @@ var geojson = {
               "city": "Logan",
               "state": "Ohio",
               "zip": 43138,
-              "Full Address": "21 Hocking Mall Logan Ohio 43138 "
+              "fulladdress": "21 Hocking Mall, Logan, Ohio 43138 "
             }
           },
           {
@@ -50,7 +50,7 @@ var geojson = {
               "city": "Coolville",
               "state": "Ohio",
               "zip": 45623,
-              "Full Address": "26460 Main Street Coolville Ohio 45623 "
+              "fulladdress": "26460 Main Street, Coolville, Ohio 45623 "
             }
           },
           {
@@ -65,7 +65,7 @@ var geojson = {
               "city": "Belpre",
               "state": "Ohio",
               "zip": 45714,
-              "Full Address": "904 Campus Drive Belpre Ohio 45714 "
+              "fulladdress": "904 Campus Drive, Belpre, Ohio 45714 "
             }
           },
           {
@@ -80,7 +80,7 @@ var geojson = {
               "city": "Shawnee",
               "state": "Ohio",
               "zip": 43782,
-              "Full Address": "116 West Main Street Shawnee Ohio 43782 "
+              "fulladdress": "116 West Main Street, Shawnee, Ohio 43782 "
             }
           },
           {
@@ -95,7 +95,7 @@ var geojson = {
               "city": "McArthur",
               "state": "Ohio",
               "zip": 45651,
-              "Full Address": "530 North Market Street McArthur Ohio 45651"
+              "fulladdress": "530 North Market Street, McArthur, Ohio 45651"
             }
             },
             {
@@ -110,7 +110,7 @@ var geojson = {
                 "city": "Nelsonville",
                 "state": "Ohio",
                 "zip": 45764,
-                "Full Address": "499 East Canal Street Nelsonville Ohio 45764"
+                "fulladdress": "499 East Canal Street, Nelsonville, Ohio 45764"
               }
           }]
     };
@@ -186,7 +186,7 @@ geojson.features.forEach(function(marker) {
   new mapboxgl.Marker(el)
     .setLngLat(marker.geometry.coordinates)
     .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
-    .setHTML(marker.properties.name))
+    .setHTML(marker.properties.name + '<br> ' + '<div class="location-address">' + marker.properties.fulladdress))
     .addTo(map);
 });
 

@@ -45,6 +45,10 @@ body {
   font: 12px/20px 'Source Sans Pro', Arial, Helvetica, sans-serif;
 }
 
+.location-address {
+  font-size: 12px;
+}
+
 .mapboxgl-popup-content {
   font-family: 'Source Sans Pro';
   font-size: 18px;

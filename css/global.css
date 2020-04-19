@@ -187,6 +187,7 @@ video {
   margin-bottom: 50px;
 }
 
+
 /* SCROLL INDICATOR */
 .header {
   position: fixed;
@@ -254,15 +255,6 @@ blockquote {
   margin-bottom: 50px;
 }
 
-/* AUDIO PLAYER */
-.audio-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
 /* MAP */
 .map {
   margin-top: 50px;
@@ -298,6 +290,23 @@ blockquote {
   }
 }
 
+@media screen and (max-width: 1200px) {
+  .vimeo {
+    width: 900px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .vimeo {
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .vimeo {
+    width: 500px;
+  }
+}
 /* MOBILE */
 @media screen and (max-width: 600px) {
   h1 {
@@ -305,6 +314,7 @@ blockquote {
     padding-left: 50px;
     padding-right: 50px;
   }
+
   .header-content h1 {
     font-size: 56px;
   }
@@ -323,5 +333,9 @@ blockquote {
 
   .center {
     width: 100%;
+  }
+
+  .vimeo {
+    width: 450px;
   }
 }
