@@ -241,13 +241,19 @@ video {
   margin-top: 50px;
 }
 
-/* PROVIDING HEALTH CARE */
+/* 360 PHOTO */
 .photo360 {
   margin: auto;
   width: 70%;
   padding: 10px;
   padding-bottom: 50px;
   padding-top: 50px;
+}
+
+
+/* SOUNDCITE */
+.soundcite-play {
+  z-index: 10;
 }
 
 /* FOOTER */
