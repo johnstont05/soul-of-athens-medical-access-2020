@@ -247,6 +247,7 @@ blockquote {
   font-weight: normal;
   color: #ffffff;
   float: right;
+  margin-bottom: 50px;
 }
 
 .pullquote footer:before {
@@ -282,7 +283,7 @@ blockquote {
   }
 
   .images {
-    width: 100%;
+    width: 80%;
   }
 
   .center {
@@ -297,6 +298,14 @@ blockquote {
 @media screen and (max-width: 1200px) {
   .vimeo {
     width: 900px;
+  }
+
+  .images {
+    width: 80%;
+  }
+
+  .center {
+    width: 80%;
   }
 }
 
@@ -333,20 +342,21 @@ blockquote {
   }
 
   .images {
-    width: 100%;
+    width: 80%;
   }
 
   .center {
-    width: 100%;
+    width: 80%;
   }
 
   .vimeo {
     width: 400px;
   }
 
-  /* .mobile {
-    margin-bottom: -200px;
-  } */
+  .padding-bottom {
+    padding-bottom: 100px;
+  }
+
 }
 
   @media screen and (max-width: 500px) {

@@ -103,7 +103,7 @@ body {
 }
 
 /* VIMEO EMBED */
-.video {
+.video-space {
   height: 100vh;
 }
 
@@ -117,7 +117,6 @@ video {
   margin-left: auto;
   margin-right: auto;
   margin: 0 auto;
-
 }
 
 /* DOWN BUTTON */

@@ -12,7 +12,7 @@ ul li {
   border-left: 1px solid #fff;
   height: 100vh;
   position: absolute;
-  right: 45px;
+  right: 40px;
   z-index: 3;
   display: block;
   position: fixed;
@@ -25,14 +25,14 @@ ul li {
 .nav__dot {
   display: block;
   position: fixed;
-  top: calc(50% - 125px);
+  top: calc(45% - 125px);
   right: 30px;
   z-index: 3;
 }
 
 .nav__dot li {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   margin: 0 0 35px;
   background: #fff;
   border-radius: 50%;
@@ -108,7 +108,6 @@ ul li {
   font-size: 80px;
   text-align: center;
 }
-
 
 .content {
   width: 100%;
@@ -314,6 +313,18 @@ video {
       margin-bottom: 150px;
       line-height: 2.5vh;
     }
+
+    .links {
+      text-align: center;
+    }
+
+    .logo {
+      text-align: center;
+    }
+
+    .copyright {
+      text-align: center;
+    }
   }
 
   /* MOBILE */
@@ -345,5 +356,17 @@ video {
     footer {
       padding-bottom: -100px;
       line-height: 1.5em;
+    }
+
+    .links {
+      text-align: center;
+    }
+
+    .logo {
+      text-align: center;
+    }
+
+    .copyright {
+      text-align: center;
     }
   }

@@ -81,8 +81,21 @@ body {
 }
 
 /* ------- MEDIA QUERIES ------- */
-@media screen and (max-width: 600px) {
+/* TABLET */
+@media screen and (max-width: 1000px) {
   .map-sum {
     font-size: 12px;
+  }
+}
+/* MOBILE */
+@media screen and (max-width: 600px) {
+  .map-sum {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .map-sum {
+    font-size: 10px;
   }
 }

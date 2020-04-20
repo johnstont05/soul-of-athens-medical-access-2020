@@ -3,7 +3,7 @@ var map = new mapboxgl.Map({
   container: 'map', // container id
   style: 'mapbox://styles/mapbox/streets-v11', // stylesheet location
   center: [-82.038, 39.28], // starting position [lng, lat]
-  zoom: 8.50 // starting zoom
+  zoom: 7.50 // starting zoom
 });
 
 var geojson = {
@@ -192,6 +192,7 @@ geojson.features.forEach(function(marker) {
 
 
 map.scrollZoom.disable(); // disable scroll zoom
-map.addControl(new mapboxgl.NavigationControl()); // add zoom/nav controls
+var nav = new mapboxgl.NavigationControl();
+map.addControl(nav, 'top-left');
 
 });

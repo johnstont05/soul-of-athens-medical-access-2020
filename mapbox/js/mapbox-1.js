@@ -4,7 +4,7 @@ var map = new mapboxgl.Map({
   container: 'map',
   style: 'mapbox://styles/mapbox/streets-v11',
   center: [-82.0592, 39.4407],
-  zoom: 10.5
+  zoom: 8.5
 });
 
 var geojson = {
@@ -105,5 +105,7 @@ map.on('load', function() {
 
 
   map.scrollZoom.disable(); // disable scroll zoom
-  map.addControl(new mapboxgl.NavigationControl()); // add zoom/nav controls
+  var nav = new mapboxgl.NavigationControl();
+  map.addControl(nav, 'top-left');
+
 });
