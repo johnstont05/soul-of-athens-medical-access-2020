@@ -12,7 +12,7 @@ ul li {
   border-left: 1px solid #fff;
   height: 100vh;
   position: absolute;
-  right: 37px;
+  right: 45px;
   z-index: 3;
   display: block;
   position: fixed;
@@ -31,9 +31,9 @@ ul li {
 }
 
 .nav__dot li {
-  width: 15px;
-  height: 15px;
-  margin: 0 0 30px;
+  width: 30px;
+  height: 30px;
+  margin: 0 0 35px;
   background: #fff;
   border-radius: 50%;
   cursor: pointer;
@@ -97,7 +97,10 @@ ul li {
   font-family: 'Lora';
   font-size: 18px;
   z-index: 2;
+  border: none;
+  outline: none;
   text-align: center;
+  background-color: transparent;
 }
 
 .fa-angle-left {
@@ -340,7 +343,7 @@ video {
     }
 
     footer {
-      padding-bottom: 100px;
+      padding-bottom: -100px;
       line-height: 1.5em;
     }
   }

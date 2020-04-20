@@ -24,66 +24,66 @@ var APP_DATA = {
       ],
       "faceSize": 1520,
       "initialViewParameters": {
-        "yaw": -2.1904688891209894,
-        "pitch": 0.29244407880579004,
-        "fov": 1.3836063943498988
+        "yaw": -2.2031720276378692,
+        "pitch": 0.3383473032708437,
+        "fov": 1.4881854150864144
       },
       "linkHotspots": [
         {
-          "yaw": -0.3718917459599531,
-          "pitch": 0.10029422029437463,
+          "yaw": -0.37390997871160003,
+          "pitch": 0.18903155657215365,
           "rotation": 0,
           "target": "2-exam-room-2"
         },
         {
-          "yaw": 2.5164474961737895,
-          "pitch": 0.17414917630055626,
+          "yaw": 2.58115285666251,
+          "pitch": 0.3293224333186391,
           "rotation": 0,
           "target": "1-exam-room-1"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": -1.5758665311342632,
-          "pitch": 0.6773649758882989,
-          "title": "Patient Waiting Chair",
-          "text": "This is where patients wait to see the doctor"
+          "yaw": -2.464913479719339,
+          "pitch": 0.5238584843440712,
+          "title": "<span style=\"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;\">Check-in Desk&nbsp;</span>",
+          "text": "<span style=\"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 16px;\">This is where patients check in to be seen&nbsp;</span>"
         },
         {
-          "yaw": -2.4920693108897645,
-          "pitch": 0.4845755381725887,
-          "title": "Check-in Desk&nbsp;",
-          "text": "This is where patients check in to be seen&nbsp;"
+          "yaw": -3.0532050859545237,
+          "pitch": 0.18112199486297875,
+          "title": "<span style=\"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;\">Refrigerator for Antibiotics</span>",
+          "text": "<span style=\"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 16px;\">Some antibiotics must be kept at a certain temperature</span>"
         },
         {
-          "yaw": -3.065790469978918,
-          "pitch": 0.13068662128364572,
-          "title": "Refrigerator for Antibiotics&nbsp;",
-          "text": "Some antibiotics must be kept at a certain temperature&nbsp;"
+          "yaw": -1.579560790940274,
+          "pitch": 0.6415225453280016,
+          "title": "<span style=\"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;\">Patient Waiting Chair</span>",
+          "text": "<span style=\"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 16px;\">This is where patients wait to see the doctor</span><br>"
         },
         {
-          "yaw": -0.0987028028173409,
-          "pitch": 0.3112544769655834,
-          "title": "Entrance",
-          "text": "Front Door to the truck&nbsp;"
+          "yaw": -2.2031720276378692,
+          "pitch": -1.4085578954175215,
+          "title": "<span style=\"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;\">Skylight</span>",
+          "text": "<span style=\"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 16px;\">Used to calm patients</span>"
         },
         {
-          "yaw": -0.9607474045382638,
-          "pitch": 0.5209814766758001,
-          "title": "Handicap Accessible Bathroom",
-          "text": "The waiting chair folds up to allow access to this bathroom"
+          "yaw": -0.9271607958605195,
+          "pitch": 0.4716186351521898,
+          "title": "<span style=\"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;\">Handicap Accessible Bathroom</span>",
+          "text": "<span style=\"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 16px;\">The waiting chair folds up to allow access to this bathroom</span>"
         },
         {
-          "yaw": 0.4379772056084619,
-          "pitch": 0.564759613735907,
-          "title": "Chair Holder",
-          "text": "Holds chair while the truck is in motion"
+          "yaw": 0.41891594744852867,
+          "pitch": 0.6172317643269167,
+          "title": "<span style=\"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;\">Chair Holder</span>",
+          "text": "<span style=\"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 16px;\">Holds chair while the truck is in motion</span>"
         },
         {
-          "yaw": -0.8338670293433381,
-          "pitch": -1.5075524379234704,
-          "title": "Skylight",
-          "text": "Used to calm patients"
+          "yaw": -0.10718057075518672,
+          "pitch": 0.21308598581019567,
+          "title": "<span style=\"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;\">Entrance</span>",
+          "text": "<span style=\"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 16px;\">Front door to the truck</span>"
         }
       ]
     },
@@ -117,30 +117,30 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -1.0555320392251435,
-          "pitch": 0.10405544514321008,
+          "yaw": -1.0134404510457387,
+          "pitch": 0.3026855309471923,
           "rotation": 0,
           "target": "0-lobby"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": 0.5462748979983676,
-          "pitch": 0.16768935974702082,
-          "title": "Handicap Accessible Entrance",
-          "text": "Entrance that lifts patients to the height of the truck and directly into an exam room&nbsp;"
+          "yaw": 0.6158121445706932,
+          "pitch": 0.16097704800192325,
+          "title": "<span style=\"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;\">Handicap Accessible Entrance</span>",
+          "text": "<span style=\"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 16px;\">Patients are lifted to the height of the truck and directly into the exam room</span>"
         },
         {
-          "yaw": -1.3691194105149993,
-          "pitch": -0.0817522880288788,
-          "title": "Privacy Curtain",
-          "text": "Privacy curtain that covers the exam chair"
+          "yaw": -2.094345320067003,
+          "pitch": 0.07928008595688851,
+          "title": "<span style=\"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;\">Doctor Tools</span>",
+          "text": "<span style=\"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 16px;\">Blood Pressure Monitor, Thermometer, Otoscope, Ophthalmoscope and Thermometer</span>"
         },
         {
-          "yaw": -2.195460698715273,
-          "pitch": 0.028671300953657664,
-          "title": "Doctor Tools",
-          "text": "Blood Pressure Monitor, Thermometer, Otoscope, Ophthalmoscope and Thermometer"
+          "yaw": -1.35058126296153,
+          "pitch": 0.11264148438879218,
+          "title": "<span style=\"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;\">Privacy Curtain</span>",
+          "text": "<span style=\"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 16px;\">Privacy curtain that covers the exam chair</span>"
         }
       ]
     },
@@ -174,36 +174,36 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 2.168375021095663,
-          "pitch": 0.25914801892784567,
+          "yaw": 2.1541215294639358,
+          "pitch": 0.12512156563740007,
           "rotation": 0,
           "target": "0-lobby"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": -1.4013866584410373,
-          "pitch": -0.14886178364484337,
+          "yaw": 2.1074074135850935,
+          "pitch": 0.40953383014070255,
+          "title": "<span style=\"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;\">Door to Lobby</span>",
+          "text": "<span style=\"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 16px;\">Door can be shut for privacy while seeing patients</span>"
+        },
+        {
+          "yaw": -1.7416481959433359,
+          "pitch": -1.4387760409740444,
+          "title": "Skylight&nbsp;",
+          "text": "Used to calm patients"
+        },
+        {
+          "yaw": -1.953418138678554,
+          "pitch": 0.013674131249729271,
+          "title": "<span style=\"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;\">Doctor Tools</span>",
+          "text": "<span style=\"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 16px;\">Blood Pressure Monitor, Thermometer, Otoscope, Ophthalmoscope and Thermometer</span>"
+        },
+        {
+          "yaw": -1.4172280919553302,
+          "pitch": -0.17293806898865682,
           "title": "Microwave",
-          "text": "This microwave is used by the staff to heat up their lunches"
-        },
-        {
-          "yaw": -2.0103058705387458,
-          "pitch": 0.04094947572325225,
-          "title": "Doctor Tools",
-          "text": "Blood Pressure Monitor, Thermometer, Otoscope, Ophthalmoscope and Thermometer"
-        },
-        {
-          "yaw": 2.075529222336826,
-          "pitch": 0.5270553305905938,
-          "title": "Door to Lobby",
-          "text": "Door can be shut for privacy while seeing patients&nbsp;"
-        },
-        {
-          "yaw": -2.7154504801294763,
-          "pitch": -1.4394446347609673,
-          "title": "Skylight",
-          "text": "Used to calm patients&nbsp;"
+          "text": "For staff use during long shifts"
         }
       ]
     }
