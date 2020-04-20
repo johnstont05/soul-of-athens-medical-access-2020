@@ -74,10 +74,13 @@ h1 {
   font-size: 20px;
   cursor: pointer;
   font-family: 'Source Sans Pro';
+  visibility: hidden;
 }
 
 #myBtn:hover {
   background-color: #fff;
+  display: none;
+  visibility: hidden;
 }
 
 /* IMAGES */
@@ -105,6 +108,12 @@ figcaption {
 .images {
   height: auto;
   overflow: hidden;
+}
+
+.center-illustration {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .center {
@@ -173,6 +182,8 @@ figcaption {
 }
 
 .photo-carousel {
+  height: auto;
+  min-height: 50vh;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -355,6 +366,27 @@ blockquote {
 
   .padding-bottom {
     padding-bottom: 100px;
+  }
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Source Sans Pro';
+    visibility: visible;
+  }
+
+  #myBtn:hover {
+    background-color: #fff;
+    display: none;
+    visibility: visible;
+  }
+
+  navigation {
+    visibility: hidden;
   }
 
 }
