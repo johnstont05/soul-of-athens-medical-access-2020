@@ -339,6 +339,14 @@ video {
       padding: 30px;
     }
 
+    .caption {
+      font-size: 12px;
+    }
+
+    .d-none {
+      display: block !important;
+     }
+
     .aligned-img {
       float: none;
       display: block;

@@ -13,7 +13,7 @@ html {
 }
 
 .padding-sm {
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 .padding-bottom {
@@ -328,7 +328,8 @@ blockquote {
 
 @media screen and (max-width: 800px) {
   .vimeo {
-    width: 500px;
+    width: 400px;
+    height: 400px;
   }
 }
 
