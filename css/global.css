@@ -312,10 +312,6 @@ blockquote {
 }
 
 @media screen and (max-width: 1200px) {
-  .vimeo {
-    width: 900px;
-  }
-
   .images {
     width: 80%;
   }
@@ -325,18 +321,6 @@ blockquote {
   }
 }
 
-@media screen and (max-width: 992px) {
-  .vimeo {
-    width: 700px;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .vimeo {
-    width: 400px;
-    height: 400px;
-  }
-}
 
 /* MOBILE */
 @media screen and (max-width: 600px) {
