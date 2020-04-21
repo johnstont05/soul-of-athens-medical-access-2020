@@ -1,4 +1,6 @@
 /*-------- GLOBAL STYLES --------*/
+body, html { overflow-x:hidden; }
+
 html {
   scroll-behavior: smooth;
 }
@@ -68,7 +70,6 @@ h1 {
   display: none;
   position: fixed;
   bottom: 20px;
-  right: 50px;
   z-index: 99;
   font-size: 20px;
   cursor: pointer;
@@ -236,7 +237,7 @@ blockquote {
   font-weight: bold;
   width: 100%;
   margin: auto 0;
-  font-size: 32px;
+  font-size: 22px;
   line-height: 1.5em;
   padding-bottom: 20px;
 }
@@ -257,7 +258,7 @@ blockquote {
   font-weight: normal;
   color: #ffffff;
   float: right;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 .pullquote footer:before {
@@ -276,6 +277,11 @@ blockquote {
   margin-bottom: 100px;
   height: 75vh;
 }
+
+.mobileShow {
+  display:none;
+}
+
 
 /* -------- MEDIA QUERIES -------- */
 /* TABLET */
@@ -326,8 +332,6 @@ blockquote {
 @media screen and (max-width: 600px) {
   h1 {
     font-size: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
   }
 
   .header-content h1 {
@@ -363,7 +367,7 @@ blockquote {
     display: none;
     position: fixed;
     bottom: 20px;
-    right: 20px;
+    right: 10px;
     z-index: 99;
     font-size: 20px;
     cursor: pointer;

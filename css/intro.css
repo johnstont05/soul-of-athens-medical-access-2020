@@ -147,9 +147,10 @@ video {
 
 /* -------- MEDIA QUERIES -------- */
 /* TABLET */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1000px) {
   .intro-content {
     padding: 10px;
+    margin-top: 400px;
   }
 }
 
@@ -158,5 +159,4 @@ video {
   .intro-content {
     padding: 50px;
   }
-
 }
