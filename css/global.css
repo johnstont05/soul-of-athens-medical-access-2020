@@ -1,5 +1,7 @@
 /*-------- GLOBAL STYLES --------*/
-body, html { overflow-x:hidden; }
+body, html {
+  overflow-x: hidden;
+}
 
 html {
   scroll-behavior: smooth;
@@ -279,9 +281,8 @@ blockquote {
 }
 
 .mobileShow {
-  display:none;
+  display: none;
 }
-
 
 /* -------- MEDIA QUERIES -------- */
 /* TABLET */
@@ -293,7 +294,7 @@ blockquote {
   p {
     padding-left: 5px;
     padding-right: 5px;
-    }
+  }
 
   .text {
     padding-left: 5px;
@@ -327,17 +328,16 @@ blockquote {
   }
 }
 
-
 /* MOBILE */
 @media screen and (max-width: 600px) {
   h1 {
     font-size: 50px;
   }
 
+  .pullquote {
+    font-size: 22px;
+  }
 
-.pullquote {
-  font-size: 22px;
-}
   .header-content h1 {
     font-size: 100px;
   }
