@@ -41,7 +41,7 @@ ul li {
 }
 
 .nav__dot li.current {
-  background: #FFFFB6;
+  background: #4882A3;
   transition: background 0.7s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
 }
 
@@ -340,7 +340,7 @@ video {
     }
 
     .caption {
-      font-size: 12px;
+      font-size: 10px;
     }
 
     .d-none {
