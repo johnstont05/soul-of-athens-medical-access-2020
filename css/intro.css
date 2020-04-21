@@ -1,11 +1,12 @@
 body {
-   background-color: #121D27;
+  background-color: #121D27;
 }
 
 /* HEADPHONES */
 .headphones {
   height: 100vh;
 }
+
 .headphones-text {
   color: #353535;
   font-family: "Georgia";
@@ -134,6 +135,7 @@ video {
 .spaced-section {
   height: 100vh;
 }
+
 .spaced-content {
   font-family: 'Lora';
   font-size: 18px;
